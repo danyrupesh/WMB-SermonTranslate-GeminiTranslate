@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-11-06T16:47:47.415Z",
+  "dry_run": true,
+  "package_local_estimate_tokens": 160510,
+  "target_min": 150000,
+  "target_max": 180000,
+  "within_target": true,
+  "section_sizes": {
+    "terminology": 18447,
+    "biblical_names": 12553,
+    "doctrinal_glossary": 2933,
+    "repeated_phrases": 13533,
+    "approved_examples": 112999,
+    "translation_style_guide": 639
+  },
+  "largest_sections": [
+    {
+      "name": "approved_examples",
+      "tokens": 112999
+    },
+    {
+      "name": "terminology",
+      "tokens": 18447
+    },
+    {
+      "name": "repeated_phrases",
+      "tokens": 13533
+    },
+    {
+      "name": "biblical_names",
+      "tokens": 12553
+    },
+    {
+      "name": "doctrinal_glossary",
+      "tokens": 2933
+    },
+    {
+      "name": "translation_style_guide",
+      "tokens": 639
+    }
+  ],
+  "full_corpus_not_counted_here": {
+    "note": "Full parallel_dataset / bible dump intentionally not token-counted in Phase 1 without approval.",
+    "prior_measured_approx": {
+      "sermon_clean_ref_tokens": 18512727,
+      "bible_tokens": 2801872
+    }
+  },
+  "gemini": {
+    "status": "awaiting_manual_approval",
+    "method": "local_estimate",
+    "local_estimate_tokens": 161169,
+    "note": "Set APPROVE_TOKEN_COUNT=1 to run Gemini countTokens on the distilled package only."
+  }
+}

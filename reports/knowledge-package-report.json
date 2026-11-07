@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "example_count_reconciliation": {
+    "reported_in_completion_and_extraction": 630,
+    "actual_approved_examples_json_entries": 630,
+    "trim_log_intermediate_counts": [
+      {
+        "action": "trim_examples",
+        "examples": 680,
+        "tokens": 181076
+      },
+      {
+        "action": "trim_examples",
+        "examples": 578,
+        "tokens": 148757
+      },
+      {
+        "action": "expand_examples_toward_min",
+        "examples": 778,
+        "tokens": 223483
+      }
+    ],
+    "explanation": "Trim-log counts (680, 578, 778) were intermediate loop states inside trimPackage(). After the last expand to 778, a subsequent while (tokens > 180k) trimmed examples again, landing at 630 written to approved_examples.json. Reports listed 630 (final file) while trim_log kept pre-final steps. Phase 1.1 treats 630 as the actual library size."
+  },
+  "actual_file_counts": {
+    "terminology_json": 120,
+    "biblical_names_json": 50,
+    "doctrinal_glossary_json": 27,
+    "repeated_phrases_json": 19,
+    "approved_examples_json_compact": 36,
+    "library_approved_examples_full": 630,
+    "bible_fts_rows": 31102,
+    "prompt_package_json": true
+  },
+  "shared_prompt_token_estimate": 22821,
+  "target_range": [
+    20000,
+    40000
+  ],
+  "within_target": true,
+  "section_sizes": {
+    "prompt_package_compact_json": 18615,
+    "prompt_package_pretty_file": 28562,
+    "terminology_library": 18827,
+    "biblical_names_library": 7937,
+    "doctrinal_library": 4287,
+    "phrases_library": 3305,
+    "compact_examples": 5316,
+    "style_guide": 440
+  },
+  "largest_sections": [
+    {
+      "name": "prompt_package_pretty_file",
+      "tokens": 28562
+    },
+    {
+      "name": "terminology_library",
+      "tokens": 18827
+    },
+    {
+      "name": "prompt_package_compact_json",
+      "tokens": 18615
+    },
+    {
+      "name": "biblical_names_library",
+      "tokens": 7937
+    },
+    {
+      "name": "compact_examples",
+      "tokens": 5316
+    },
+    {
+      "name": "doctrinal_library",
+      "tokens": 4287
+    },
+    {
+      "name": "phrases_library",
+      "tokens": 3305
+    },
+    {
+      "name": "style_guide",
+      "tokens": 440
+    }
+  ],
+  "trim_notes": [
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 68,
+      "tokens": 55369
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 57,
+      "tokens": 53241
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 48,
+      "tokens": 51734
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 40,
+      "tokens": 50318
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 34,
+      "tokens": 49232
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 28,
+      "tokens": 48100
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 23,
+      "tokens": 47190
+    },
+    {
+      "action": "trim_phrases_for_prompt",
+      "n": 19,
+      "tokens": 46450
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 35,
+      "tokens": 46115
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 34,
+      "tokens": 45784
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 33,
+      "tokens": 45472
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 32,
+      "tokens": 45243
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 31,
+      "tokens": 44991
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 30,
+      "tokens": 44761
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 29,
+      "tokens": 44507
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 28,
+      "tokens": 44186
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 27,
+      "tokens": 43732
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 26,
+      "tokens": 43592
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 25,
+      "tokens": 43433
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 24,
+      "tokens": 43299
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 23,
+      "tokens": 43024
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 22,
+      "tokens": 42816
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 21,
+      "tokens": 42591
+    },
+    {
+      "action": "trim_compact_examples",
+      "n": 20,
+      "tokens": 42415
+    }
+  ],
+  "differences_from_phase1": {
+    "previous_prompt_token_estimate": 160510,
+    "previous_approved_examples_in_prompt": 630,
+    "now_compact_examples_in_prompt": 20,
+    "previous_terminology": 99,
+    "now_terminology": 120,
+    "paragraph_tamil_glosses_removed": 75
+  },
+  "gemini_count_tokens": {
+    "status": "awaiting_manual_approval",
+    "command": "cd /d E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini && set APPROVE_TOKEN_COUNT=1&& node -e \"const fs=require('fs');const {GoogleGenAI}=require('@google/genai');(async()=>{const ai=new GoogleGenAI({apiKey:fs.readFileSync('Key.secure.txt','utf8').trim()});const files=['terminology.json','biblical_names.json','doctrinal_glossary.json','repeated_phrases.json','approved_examples.json','translation_style_guide.md'].map(f=>fs.readFileSync('knowledge/'+f,'utf8')).join('\\n');const r=await ai.models.countTokens({model:'gemini-3.1-flash-lite',contents:files});console.log(r.totalTokens);})();\""
+  },
+  "shared_prompt_pretty_file_tokens": 33258,
+  "notes": [
+    "Shared prompt is knowledge/prompt_package.json (compact stringify ~18615 tokens). Local libraries remain searchable and are not all stuffed into the prompt. Bible FTS excluded from prompt tokens."
+  ]
+}
