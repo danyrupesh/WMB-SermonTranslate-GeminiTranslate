@@ -1,0 +1,707 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "auto_approved": false,
+  "entries": [
+    {
+      "english": "They said, \"We know not whether there be any Holy Ghost.\"",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவேயில்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_007519"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவே இல்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015282"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007519",
+        "sermon_pair_015282"
+      ],
+      "occurrence_count": 2,
+      "context": "Insufficient short-form evidence to treat as terminology",
+      "confidence": "low",
+      "evidence_classification": "ambiguous_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "whether holy ghost",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவேயில்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_007519"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவே இல்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015282"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007519",
+        "sermon_pair_015282"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Faith 61-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "விசுவாசம் 61-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_036114",
+            "sermon_pair_036114"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_036114"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        },
+        {
+          "tamil": "உண்மையான ஈஸ்டர் முத்திரை 61-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_034126"
+          ]
+        },
+        {
+          "tamil": "நாளை இரவு, தேவனுக்குச் சித்தமானால், நாம் இரண்டாம் முத்திரையைப் பார்ப்போம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048608"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006424",
+        "sermon_pair_034126",
+        "sermon_pair_048608",
+        "sermon_pair_048697"
+      ],
+      "occurrence_count": 16,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "word",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவன் தம்முடைய வார்த்தையைக் காத்துக்கொள்கிறார் 57-0120e ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013418"
+          ]
+        },
+        {
+          "tamil": "தேவன் தம்முடைய வார்த்தையைக் காத்துக்கொள்கிறார் 57-0407m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013851"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001482",
+        "sermon_pair_013418",
+        "sermon_pair_013851",
+        "sermon_pair_056448"
+      ],
+      "occurrence_count": 6,
+      "context": "Tamil side is a full paragraph, not a terminology gloss",
+      "confidence": "rejected_as_term",
+      "evidence_classification": "ambiguous_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "faith",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_009579"
+          ]
+        },
+        {
+          "tamil": "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_019436"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_009579",
+        "sermon_pair_014516",
+        "sermon_pair_019436",
+        "sermon_pair_036114"
+      ],
+      "occurrence_count": 6,
+      "context": "Tamil side is a full paragraph, not a terminology gloss",
+      "confidence": "rejected_as_term",
+      "evidence_classification": "ambiguous_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "prophet",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001478"
+          ]
+        },
+        {
+          "tamil": "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_047184"
+          ]
+        },
+        {
+          "tamil": "\"கர்த்தருடைய தீர்க்கதரிசி ஒருவர் இருக்கிறாரா?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074887"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001478",
+        "sermon_pair_047184",
+        "sermon_pair_074887"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "blood",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006513"
+          ]
+        },
+        {
+          "tamil": "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013009"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006513",
+        "sermon_pair_013009"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "holy ghost",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பரிசுத்த ஆவியின் பேரில் கேள்விகளும் பதில்களும் 59-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_024385"
+          ]
+        },
+        {
+          "tamil": "பரிசுத்த ஆவியைத் தவிர வேறொன்றும் விடப்பட்டிருக்கவில்லை.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_071420"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_024385",
+        "sermon_pair_071420"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "bride",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது உண்மையான மணவாட்டி உண்டு என்பதை நீங்கள் நினைவில் கொள்ளுங்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048691"
+          ]
+        },
+        {
+          "tamil": "அங்கே மணவாட்டியோடு இருக்கப் போகிறது.......",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074255"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048691",
+        "sermon_pair_074255"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "sanctification",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006513"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006513"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "message",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "[ஒரு சகோதரன் ஒரு செய்தியைக் கொடுக்கிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_037837"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_037837"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "antichrist",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, இப்பொழுது அவன் ஆரம்பத்தில் \"அந்திக்கிறிஸ்துவின்\" ஆவியாயிருந்தான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048800"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048800"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "rapture",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, எடுத்துக்கொள்ளப்படுதல் நிகழ்ந்த பின்பு…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051530"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_051530"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "have faith in",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_009579"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000157",
+        "sermon_pair_000801",
+        "sermon_pair_000822",
+        "sermon_pair_000891"
+      ],
+      "occurrence_count": 209,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seal of",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_002094",
+        "sermon_pair_002101",
+        "sermon_pair_003605",
+        "sermon_pair_003607"
+      ],
+      "occurrence_count": 155,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "have faith in god",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_009579"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000157",
+        "sermon_pair_000822",
+        "sermon_pair_000937",
+        "sermon_pair_001238"
+      ],
+      "occurrence_count": 138,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seal of god",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003605",
+        "sermon_pair_003607",
+        "sermon_pair_004938",
+        "sermon_pair_005863"
+      ],
+      "occurrence_count": 80,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the sixth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆறாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050800"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034727",
+        "sermon_pair_047910",
+        "sermon_pair_049357",
+        "sermon_pair_050253"
+      ],
+      "occurrence_count": 55,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seventh seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஏழாவது முத்திரை தொடர்கிறது.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051109"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034726",
+        "sermon_pair_044748",
+        "sermon_pair_047781",
+        "sermon_pair_047912"
+      ],
+      "occurrence_count": 38,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the first seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதலாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048697"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_030640",
+        "sermon_pair_034727",
+        "sermon_pair_045642",
+        "sermon_pair_045713"
+      ],
+      "occurrence_count": 30,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the fourth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நான்காம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049830"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_049105",
+        "sermon_pair_049433",
+        "sermon_pair_049434",
+        "sermon_pair_049434"
+      ],
+      "occurrence_count": 21,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the fifth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஐந்தாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050312"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_004916",
+        "sermon_pair_049967",
+        "sermon_pair_050135",
+        "sermon_pair_050135"
+      ],
+      "occurrence_count": 20,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the easter seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஈஸ்டர் முத்திரை 65-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_068594"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_033901",
+        "sermon_pair_033903",
+        "sermon_pair_033903",
+        "sermon_pair_033951"
+      ],
+      "occurrence_count": 15,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the second seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரண்டாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049066"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034726",
+        "sermon_pair_048483",
+        "sermon_pair_048552",
+        "sermon_pair_048608"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the third seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மூன்றாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049425"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048483",
+        "sermon_pair_048844",
+        "sermon_pair_049159",
+        "sermon_pair_049206"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "proving his word",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அவருடைய வார்த்தையை நிரூபித்தல் 65-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_069542"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_033763",
+        "sermon_pair_063699",
+        "sermon_pair_063803",
+        "sermon_pair_063822"
+      ],
+      "occurrence_count": 11,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    }
+  ]
+}

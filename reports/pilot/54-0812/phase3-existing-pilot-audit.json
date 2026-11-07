@@ -1,0 +1,2333 @@
+{
+  "phase": "3",
+  "mode": "existing_pilot_audit",
+  "generated_at": "2026-11-07T08:08:45.098Z",
+  "sermon_id": "54-0812",
+  "english_title": "Prayer Line",
+  "tamil_title": "ஜெப வரிசை 54-0812 லாஸ் ஏஞ்சல்ஸ், கலிபோர்னியா, யு.எஸ்.ஏ.",
+  "generateContent_called": false,
+  "paid_generation_rerun": false,
+  "translation_files_modified": false,
+  "database_writes": false,
+  "status": "PASS_WITH_REVIEW",
+  "structural_pass": true,
+  "phase2b_config_parity_pass": false,
+  "summary": {
+    "expected_paragraphs": 17,
+    "actual_paragraphs": 17,
+    "missing_labels": [],
+    "duplicated_labels": [],
+    "incomplete_marker_labels": [
+      "4",
+      "10",
+      "14"
+    ],
+    "english_source_mismatch_labels": [],
+    "human_review_items": 23,
+    "fail_issues": 0,
+    "warn_issues": 3
+  },
+  "existing_run": {
+    "model": "gemini-3.1-pro-preview",
+    "english_paragraphs": 17,
+    "tamil_paragraphs": 17,
+    "bible_pairs_injected": 0,
+    "ms": 69633,
+    "usage": {
+      "promptTokenCount": 18911,
+      "candidatesTokenCount": 5443,
+      "totalTokenCount": 30097
+    },
+    "note": "Pilot draft. Not copied to source_of_truth or approved 419.",
+    "out_json": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\sermon_54-0812.en-ta.json",
+    "out_html": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\sermon_54-0812.preview.html",
+    "raw_chunk_files": [
+      "raw_chunk_1.txt",
+      "raw_chunk_2.txt"
+    ]
+  },
+  "actual_cost_from_run_meta": {
+    "pricing_basis": "gemini-3.1-pro-preview standard ($2/1M input, $12/1M output)",
+    "usd_inr": 84,
+    "gst_rate": 0.18,
+    "promptTokenCount": 18911,
+    "candidatesTokenCount": 5443,
+    "totalTokenCount": 30097,
+    "estimated_usd": 0.103138,
+    "estimated_inr_gst": 10.22,
+    "note": "Computed from run-meta.json usage. Not a new API call."
+  },
+  "phase2b_comparison": {
+    "preflight_generated_at": "2026-11-07T08:00:17.654Z",
+    "prompt_version": "phase2b-preflight-1",
+    "system_tokens": 24902,
+    "total_input_tokens": 29498,
+    "estimated_output_with_json": 6808,
+    "bible_pairs": [
+      {
+        "ref": "John 5:14",
+        "match_method": "fts_and_words"
+      },
+      {
+        "ref": "Mark 16:17",
+        "match_method": "fts_phrase_prefix"
+      }
+    ],
+    "prefer_single_request": true,
+    "single_request_cost_estimate_inr_gst": 13.95,
+    "config_diff": {
+      "model": {
+        "existing_run": "gemini-3.1-pro-preview",
+        "phase2b": "gemini-3.1-pro-preview",
+        "match": true
+      },
+      "api_version": {
+        "existing_run": "not_recorded_in_run-meta (pilot used @google/genai; later scripts default v1beta)",
+        "phase2b": "v1beta",
+        "match": null
+      },
+      "prompt_version": {
+        "existing_run": "not_recorded (pre-phase2b pilot)",
+        "phase2b": "phase2b-preflight-1",
+        "match": false
+      },
+      "system_prompt": {
+        "existing_run": "Not hashed in run-meta. Actual promptTokenCount=18911 implies a smaller prompt than Phase 2B system 24902 (+ user).",
+        "phase2b_system_tokens": 24902,
+        "phase2b_total_input_tokens": 29498,
+        "existing_prompt_token_count": 18911,
+        "note": "Existing pilot likely used an earlier/slimmer system prompt and/or chunked requests that still sum to 18911 prompt tokens."
+      },
+      "bible_pairs_injected": {
+        "existing_run": 0,
+        "phase2b": 2,
+        "phase2b_refs": [
+          "John 5:14",
+          "Mark 16:17"
+        ],
+        "match": false
+      },
+      "request_shape": {
+        "existing_run": {
+          "raw_chunk_files": [
+            "raw_chunk_1.txt",
+            "raw_chunk_2.txt"
+          ],
+          "inferred": "chunked generateContent (2 chunk file(s) present)"
+        },
+        "phase2b_plan": {
+          "prefer_single_request": true,
+          "estimated_chunks": 1
+        }
+      },
+      "source_sermon_hash": {
+        "phase2b_archive": "31b7a9115e94fdc7bfcfe1e7e7d46a089f30af1b8cd0fdf3147eee26abf4ecb2",
+        "phase2b_preflight": "31b7a9115e94fdc7bfcfe1e7e7d46a089f30af1b8cd0fdf3147eee26abf4ecb2",
+        "match": true
+      }
+    }
+  },
+  "bible_quotation_checks": [
+    {
+      "label": "3",
+      "description": "Branham paraphrase of John 5:14 / John 8:11 (sin no more / worse thing)",
+      "phase2b_ref": "John 5:14",
+      "approved_tamil_present_in_paragraph": false,
+      "approved_tamil": null,
+      "tamil_quote_snippet": null,
+      "status": "needs_human_review"
+    },
+    {
+      "label": "13",
+      "description": "Mark 16:17–18 paraphrase (signs / lay hands on sick)",
+      "phase2b_ref": "Mark 16:17",
+      "approved_tamil_present_in_paragraph": false,
+      "approved_tamil": null,
+      "tamil_quote_snippet": null,
+      "status": "needs_human_review"
+    }
+  ],
+  "paragraph_audits": [
+    {
+      "label": "header",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 49,
+      "ta_chars": 129,
+      "ta_en_byte_ratio": 2.633,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "Los Angeles California U.S.A.",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "los angeles california",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Los Angeles California",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "los angeles california",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "1",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 738,
+      "ta_chars": 2493,
+      "ta_en_byte_ratio": 3.378,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "2",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 971,
+      "ta_chars": 3289,
+      "ta_en_byte_ratio": 3.387,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "3",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 573,
+      "ta_chars": 2119,
+      "ta_en_byte_ratio": 3.698,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "seated",
+          "approved_tamil": [
+            "நீங்கள் உட்காரலாம்.",
+            "நீங்கள் உட்கார்ந்து கொள்ளலாம்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "4",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": true,
+      "en_chars": 2183,
+      "ta_chars": 6786,
+      "ta_en_byte_ratio": 3.109,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "5",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1229,
+      "ta_chars": 4208,
+      "ta_en_byte_ratio": 3.424,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "6",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 804,
+      "ta_chars": 2873,
+      "ta_en_byte_ratio": 3.573,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "7",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1416,
+      "ta_chars": 5313,
+      "ta_en_byte_ratio": 3.752,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "8",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1126,
+      "ta_chars": 3925,
+      "ta_en_byte_ratio": 3.486,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "9",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1119,
+      "ta_chars": 3937,
+      "ta_en_byte_ratio": 3.518,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "10",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": true,
+      "en_chars": 1477,
+      "ta_chars": 4860,
+      "ta_en_byte_ratio": 3.29,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "11",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 720,
+      "ta_chars": 2827,
+      "ta_en_byte_ratio": 3.926,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "12",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1387,
+      "ta_chars": 4920,
+      "ta_en_byte_ratio": 3.547,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "blood",
+          "approved_tamil": [
+            "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+            "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "13",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 609,
+      "ta_chars": 2348,
+      "ta_en_byte_ratio": 3.856,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "14",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": true,
+      "en_chars": 1194,
+      "ta_chars": 4368,
+      "ta_en_byte_ratio": 3.658,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "15",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 746,
+      "ta_chars": 2649,
+      "ta_en_byte_ratio": 3.551,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    },
+    {
+      "label": "16",
+      "present": true,
+      "english_matches_source": true,
+      "tamil_nonempty": true,
+      "incomplete_marker": false,
+      "en_chars": 1288,
+      "ta_chars": 4468,
+      "ta_en_byte_ratio": 3.469,
+      "notes": [],
+      "terminology_flags": [
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "blood",
+          "approved_tamil": [
+            "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+            "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "incomplete_marker",
+      "detail": "4"
+    },
+    {
+      "severity": "warn",
+      "code": "incomplete_marker",
+      "detail": "10"
+    },
+    {
+      "severity": "warn",
+      "code": "incomplete_marker",
+      "detail": "14"
+    }
+  ],
+  "human_review_required": [
+    {
+      "label": "header",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "Los Angeles California U.S.A.",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "los angeles california",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Los Angeles California",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "los angeles california",
+          "approved_tamil": [
+            "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "1",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "2",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "3",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "seated",
+          "approved_tamil": [
+            "நீங்கள் உட்காரலாம்.",
+            "நீங்கள் உட்கார்ந்து கொள்ளலாம்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "4",
+      "category": "incomplete_marker",
+      "reason": "Contains ...?... or similar incomplete/editor gap marker preserved or introduced.",
+      "action": "Human decide whether marker should remain as in English source.",
+      "english_snippet": "granted by God. You can return and make …?… in the Name of Jesus Christ.",
+      "tamil_snippet": "ழங்கப்பட்டது. நீங்கள் திரும்பிச் சென்று ...?... இயேசு கிறிஸ்துவின் நாமத்தில்."
+    },
+    {
+      "label": "4",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "5",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "6",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "7",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "8",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "9",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "10",
+      "category": "incomplete_marker",
+      "reason": "Contains ...?... or similar incomplete/editor gap marker preserved or introduced.",
+      "action": "Human decide whether marker should remain as in English source.",
+      "english_snippet": "men. Don’t cry, mother. Jesus bless you …?…",
+      "tamil_snippet": "ம், அம்மா. இயேசு உங்களை ஆசீர்வதிப்பாராக …?…"
+    },
+    {
+      "label": "10",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "11",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "12",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "pray",
+          "approved_tamil": [
+            "நாம் ஜெபம் செய்வோமாக.",
+            "இப்பொழுது நாம் ஜெபம் செய்வோம்:"
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "blood",
+          "approved_tamil": [
+            "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+            "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "13",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Said",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவர், ''ஆம்\" என் றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "14",
+      "category": "incomplete_marker",
+      "reason": "Contains ...?... or similar incomplete/editor gap marker preserved or introduced.",
+      "action": "Human decide whether marker should remain as in English source.",
+      "english_snippet": "ave the people. You’re every one healed …?… God bless you. The whole pressure leave",
+      "tamil_snippet": "்கள் ஒவ்வொருவரும் குணமடைந்துவிட்டீர்கள் …?… தேவன் உங்களை ஆசீர்வதிப்பாராக. முழு அழுத"
+    },
+    {
+      "label": "14",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "have faith in god",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "15",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "going",
+          "approved_tamil": [
+            "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+            "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\""
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "faith",
+          "approved_tamil": [
+            "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+            "விசுவாசத்தினாலே மோசே 58-0720m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "16",
+      "category": "terminology_uncertain",
+      "reason": "One or more glossary terms present in English were not detected as approved Tamil substrings.",
+      "terms": [
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "What",
+          "approved_tamil": [
+            "அது என்னவாயிருக்கிறது?",
+            "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?"
+          ],
+          "cls": "verified_terminology_mappings",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "right",
+          "approved_tamil": [
+            "சரி:",
+            "நான் \"சரி\" யென்றேன்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "That",
+          "approved_tamil": [
+            "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+            "அவள், \"அதுதான்\" என்றாள்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "Come",
+          "approved_tamil": [
+            "என்னைப் பின்பற்றி, வா 63-",
+            "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்."
+          ],
+          "cls": "context_dependent_translations",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "prophet",
+          "approved_tamil": [
+            "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+            "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        },
+        {
+          "english_term": "blood",
+          "approved_tamil": [
+            "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+            "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]"
+          ],
+          "cls": "doctrinal",
+          "note": "Approved glossary form not found as substring in Tamil paragraph (context may justify alternate)."
+        }
+      ],
+      "action": "Human doctrinal/terminology review. Do not silently rewrite."
+    },
+    {
+      "label": "2",
+      "category": "loanword_parenthetical",
+      "reason": "Tamil keeps English “multiple sclerosis” in parentheses after Tamil transliteration.",
+      "action": "Human style preference: keep bilingual medical gloss or Tamil-only.",
+      "snippet": "மல்டிபிள் ஸ்களீரோசிஸ் (multiple sclerosis)"
+    },
+    {
+      "label": "16",
+      "category": "loanword_parenthetical",
+      "reason": "Tamil includes English medical parentheticals (peptic / peptic ulcer).",
+      "action": "Human style preference."
+    },
+    {
+      "label": "4",
+      "category": "editor_gap_preserved",
+      "reason": "English source has “...?...”; Tamil preserves “...?...” — likely intentional tape/editor gap.",
+      "action": "Confirm keep as-is (recommended) vs inventing missing words."
+    }
+  ],
+  "verdict": {
+    "status": "PASS_WITH_REVIEW",
+    "structural": "All 17 paragraphs present with non-empty Tamil; labels header+1–16 intact.",
+    "phase2b_parity": "Existing paid pilot does NOT match Phase 2B prompt/Bible-injection configuration. That is expected; do not regenerate in Phase 3.",
+    "next_step": "STOP. Human review listed items. No generateContent until explicit approval for a future phase."
+  }
+}

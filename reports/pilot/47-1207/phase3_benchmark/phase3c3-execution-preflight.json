@@ -1,0 +1,1137 @@
+{
+  "phase": "3C.3",
+  "mode": "bible_retrieval_instruction_correction_preflight",
+  "generated_at": "2026-11-07T10:02:07.571Z",
+  "sermon_id": "47-1207",
+  "english_title": "Experiences",
+  "sermon_meta": {
+    "date": "1947-12-07",
+    "duration": "137 min",
+    "location": "Phoenix AZ",
+    "paragraphs_loaded": 98
+  },
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "prompt_version": "phase3c3-bible-guide-fix-1",
+  "generateContent_called": false,
+  "paid_generation_requests": 0,
+  "countTokens_calls": 8,
+  "countTokens_is_generation": false,
+  "gcs": false,
+  "context_cache": false,
+  "batch_api": false,
+  "database_writes": false,
+  "source_of_truth_modified": false,
+  "automatic_retries": false,
+  "configuration": {
+    "maxOutputTokens": 65536,
+    "thinkingLevel": "HIGH",
+    "includeThoughts": false,
+    "compact_tamil_output": true,
+    "preserve_knowledge_package": true,
+    "preserve_verified_bible_pairs_per_chunk": true,
+    "quality_settings_reduced": false,
+    "bible_matching": {
+      "identifiable_quotation_or_clear_reference_only": true,
+      "prefer_exact_kjv_and_distinctive_consecutive_ngrams": true,
+      "one_verse_per_quotation": true,
+      "prefer_spoken_command_over_later_restatement": true,
+      "generic_words_are_not_citations": [
+        "whole",
+        "believe",
+        "praise the Lord",
+        "God",
+        "Jesus"
+      ],
+      "do_not_fill_to_5_10_pairs": true,
+      "zero_pairs_if_unreliable": true,
+      "tamil_wording": "bible_parallel_dataset.json BSI O.V. unchanged"
+    }
+  },
+  "paragraph_coverage": {
+    "expected_count": 98,
+    "expected_labels": [
+      "header",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+    ],
+    "assigned": [
+      "header",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+    ],
+    "missing_from_chunks": [],
+    "duplicated_across_chunks": [],
+    "unknown_in_chunks": [],
+    "every_paragraph_exactly_once": true
+  },
+  "assembly_strategy": {
+    "merge_order": "chunk_1_then_chunk_2_by_original_label_order",
+    "output_schema_per_request": {
+      "type": "object",
+      "required": [
+        "sermon_id",
+        "tamil_title",
+        "paragraphs"
+      ],
+      "properties": {
+        "sermon_id": {
+          "type": "string"
+        },
+        "tamil_title": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "tamil"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "tamil": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "post_process": "For each returned {label,tamil}, attach english from local source paragraphs by label. Build final document with all 98 paragraphs in original order. Write preview HTML. Do not write source_of_truth.",
+    "tamil_title": "Take tamil_title from chunk 1 response if present; otherwise derive from header tamil.",
+    "no_automatic_retry": true,
+    "separate_approval_required_per_chunk": true
+  },
+  "chunks": [
+    {
+      "chunk_index": 1,
+      "name": "chunk_1_header_1_50",
+      "paragraph_count": 51,
+      "labels": [
+        "header",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "first_label": "header",
+      "last_label": "50",
+      "bible_pairs": [
+        {
+          "ref": "John 5:6",
+          "match_method": "fts_kjv_wording",
+          "matched_query": "Will thou be made whole?",
+          "sermon_passage": "He told him, “Will thou be made whole?” He said, “Sir, I have no one to put me in the water.",
+          "consecutive_ngram": {
+            "n": 5,
+            "phrase": "will you be made whole"
+          },
+          "tamil_from": "bible_parallel_dataset.json (BSI O.V. wording unchanged)",
+          "verified_against_source": true
+        },
+        {
+          "ref": "John 5:7",
+          "match_method": "fts_phrase_prefix",
+          "matched_query": "Sir, I have no one to put me in the water.",
+          "sermon_passage": "He told him, “Will thou be made whole?” He said, “Sir, I have no one to put me in the water.” He said, “Take up your bed and walk.",
+          "consecutive_ngram": {
+            "n": 4,
+            "phrase": "sir i have no"
+          },
+          "tamil_from": "bible_parallel_dataset.json (BSI O.V. wording unchanged)",
+          "verified_against_source": true
+        },
+        {
+          "ref": "John 5:8",
+          "match_method": "fts_kjv_wording",
+          "matched_query": "Take up your bed and walk.",
+          "sermon_passage": "” He said, “Take up your bed and walk.” See, He didn’t have to argue with him, because Christ knew that that man had faith to be healed; and the man picked up his bed and went on.",
+          "consecutive_ngram": {
+            "n": 6,
+            "phrase": "take up your bed and walk"
+          },
+          "tamil_from": "bible_parallel_dataset.json (BSI O.V. wording unchanged)",
+          "verified_against_source": true
+        },
+        {
+          "ref": "John 11:39",
+          "match_method": "fts_kjv_wording",
+          "matched_query": "Take ye away the stone.",
+          "sermon_passage": "You see? It’s got to be a part like Mary told—or Jesus told Mary and Martha: “Take ye away the stone.” See? You got something to do, yourself.",
+          "consecutive_ngram": {
+            "n": 5,
+            "phrase": "take ye away the stone"
+          },
+          "tamil_from": "bible_parallel_dataset.json (BSI O.V. wording unchanged)",
+          "verified_against_source": true
+        }
+      ],
+      "bible_pair_count": 4,
+      "bible_rejected_this_chunk": [],
+      "bible_failures": [
+        {
+          "query": "Partings leave behind us, footprints on the sands of time.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Don’t not go with them men.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "Now, the child is healed.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "You believe, sir?",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "What’s the matter, sir.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "I can assure you that the gift of healing hasn’t gone from you.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Gifts and callings are without repentance.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "God will deal with you, but He absolutely would be untrue to His promise if He took the gift from you.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "It can’t leave you.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "Samson slept all night with a harlot, and the next morning walked out and picked the gates up and walked away with them.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "He’ll deal with you.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "Moses smote the rock when he was supposed to speak to it.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "That’s right, but the waters come forth. That was true.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "He’ll deal with you, and He’ll make you pay for it. But, see, the gift is there.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "I’ll bring my mother and you make her get well. She’s crippled and neighborhood will believe.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "will you say the prayer for me?",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        }
+      ],
+      "tokens": {
+        "system_prompt": 25138,
+        "user_prompt": 15184,
+        "total_input": 40322,
+        "english_source": 14698,
+        "estimated_tamil_body": 19843,
+        "estimated_visible_tamil_json": 20535,
+        "thinking_reserve_high": 24000,
+        "safety_margin": 2048,
+        "required_output_budget": 46583,
+        "maxOutputTokens": 65536
+      },
+      "output_budget_check": {
+        "maxOutputTokens": 65536,
+        "model_documented_max_output": 65536,
+        "estimated_visible_output_tokens": 20535,
+        "thinking_reserve_tokens": 24000,
+        "safety_margin_tokens": 2048,
+        "required_output_budget": 46583,
+        "within_model_limit": true,
+        "budget_sufficient": true,
+        "generate_allowed": true,
+        "blockers": []
+      },
+      "safe_to_execute_independently": true,
+      "cost_estimate": {
+        "likely_usd": 0.459736,
+        "likely_inr_gst": 45.57,
+        "high_reserve_usd": 0.615064,
+        "high_reserve_inr_gst": 60.97,
+        "maximum_potential_usd": 0.867076,
+        "maximum_potential_inr_gst": 85.94
+      },
+      "artifacts": {
+        "payloadPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_1_header_1_50-payload.json",
+        "systemPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_1_header_1_50-system.txt"
+      },
+      "request_manifest": {
+        "model": "gemini-3.1-pro-preview",
+        "api_version": "v1beta",
+        "config": {
+          "systemInstruction": "(Phase 3B distilled prompt_package + chunk-relevant verified Bible pairs)",
+          "temperature": 0.1,
+          "responseMimeType": "application/json",
+          "responseSchema": {
+            "type": "object",
+            "required": [
+              "sermon_id",
+              "tamil_title",
+              "paragraphs"
+            ],
+            "properties": {
+              "sermon_id": {
+                "type": "string"
+              },
+              "tamil_title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "tamil"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tamil": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "maxOutputTokens": 65536,
+          "thinkingConfig": {
+            "thinkingLevel": "HIGH",
+            "includeThoughts": false
+          }
+        },
+        "user_intro_preview": "Translate these sermon paragraphs into Tamil. Keep every label in the given order. Return compact JSON only: {\"sermon_id\",\"tamil_title\",\"paragraphs\":[{\"label\",\"tamil\"}]}. Do not repeat English paragraph text in the response. Do not summariz…",
+        "payload_paragraph_count": 51,
+        "payload_labels": [
+          "header",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50"
+        ]
+      },
+      "hashes": {
+        "system_prompt": "4d219d87c5b15dc46ecf291925138933fa5d8f3d7ec266955b9bc04229b467f4",
+        "user_prompt": "497f62ce00aa72fc135a1ac390f0d59f2739351b072ed07954fecc725b66dc35",
+        "payload": "3d0cde452b1211fc027338a4339b3de57e3360226cc5b06f91ee85a6e5bc5f57"
+      }
+    },
+    {
+      "chunk_index": 2,
+      "name": "chunk_2_51_97",
+      "paragraph_count": 47,
+      "labels": [
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97"
+      ],
+      "first_label": "51",
+      "last_label": "97",
+      "bible_pairs": [],
+      "bible_pair_count": 0,
+      "bible_rejected_this_chunk": [
+        {
+          "query": "Praise the Lord,",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "Now, say, “Praise the Lord,” everybody."
+        },
+        {
+          "query": "Praise the Lord,",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "Now, say, “Praise the Lord,” everybody."
+        },
+        {
+          "query": "Praise the Lord,",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "Now, say, “Praise the Lord,” everybody."
+        },
+        {
+          "query": "Praise the Lord,",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "Now, say, “Praise the Lord,” everybody."
+        },
+        {
+          "query": "Praise the Lord …?…",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "He’s walking at it now …?… Let’s say, “Praise the Lord …?… ” …?… Let’s say, “Praise the Lord,” everybody."
+        },
+        {
+          "query": "Praise the Lord,",
+          "classification": "generic_phrase_not_a_citation",
+          "reason": "Common liturgical/generic phrase is not treated as a Bible citation even if similar wording exists in KJV.",
+          "sermon_passage": "Now, say, “Praise the Lord,” everybody."
+        }
+      ],
+      "bible_failures": [
+        {
+          "query": "Praise the Lord,",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "What I can’t understand, Brother Branham, is that people who are prayed for…and when they’re healed,",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "the people in Pentecost, they usually like to shout so much,",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "wonder they don’t do more shouting than that.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "They are just dumbfounded. They’re just the…They just…they just are—It just happened then.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "You ought to go outside of the building sometime and see them when they coming out of the building, then you would understand.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Praise the Lord,",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "Praise the Lord,",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "Praise the Lord,",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "I knew all the time I would when I got to her.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "I believe that Jesus, with all my heart, and I believe Jesus sent you here.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "a whole lot.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "Just forget about it and go on. She just…",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Life of it is dead. And she’ll be okay.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Praise the Lord …?…",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "Praise the Lord,",
+          "kind": "quotation",
+          "error": "generic_phrase_not_a_citation",
+          "classification": "generic_phrase_not_a_citation"
+        },
+        {
+          "query": "Why, I was once with a broken back, but it healed up just in a little bit. And I’m well, because Jesus Christ made me well.",
+          "kind": "quotation",
+          "error": "paraphrase_unmatched",
+          "classification": "paraphrase_unmatched"
+        },
+        {
+          "query": "Now, I believe.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "I’ll be healed, sir.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        },
+        {
+          "query": "If you get the people to believe you, nothing shall stand before your prayer.",
+          "kind": "quotation",
+          "error": "not_scripture",
+          "classification": "not_scripture"
+        }
+      ],
+      "tokens": {
+        "system_prompt": 24802,
+        "user_prompt": 15296,
+        "total_input": 40098,
+        "english_source": 14828,
+        "estimated_tamil_body": 20018,
+        "estimated_visible_tamil_json": 20662,
+        "thinking_reserve_high": 24000,
+        "safety_margin": 2048,
+        "required_output_budget": 46710,
+        "maxOutputTokens": 65536
+      },
+      "output_budget_check": {
+        "maxOutputTokens": 65536,
+        "model_documented_max_output": 65536,
+        "estimated_visible_output_tokens": 20662,
+        "thinking_reserve_tokens": 24000,
+        "safety_margin_tokens": 2048,
+        "required_output_budget": 46710,
+        "within_model_limit": true,
+        "budget_sufficient": true,
+        "generate_allowed": true,
+        "blockers": []
+      },
+      "safe_to_execute_independently": true,
+      "cost_estimate": {
+        "likely_usd": 0.460812,
+        "likely_inr_gst": 45.68,
+        "high_reserve_usd": 0.61614,
+        "high_reserve_inr_gst": 61.07,
+        "maximum_potential_usd": 0.866628,
+        "maximum_potential_inr_gst": 85.9
+      },
+      "artifacts": {
+        "payloadPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_2_51_97-payload.json",
+        "systemPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_2_51_97-system.txt"
+      },
+      "request_manifest": {
+        "model": "gemini-3.1-pro-preview",
+        "api_version": "v1beta",
+        "config": {
+          "systemInstruction": "(Phase 3B distilled prompt_package + chunk-relevant verified Bible pairs)",
+          "temperature": 0.1,
+          "responseMimeType": "application/json",
+          "responseSchema": {
+            "type": "object",
+            "required": [
+              "sermon_id",
+              "tamil_title",
+              "paragraphs"
+            ],
+            "properties": {
+              "sermon_id": {
+                "type": "string"
+              },
+              "tamil_title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "tamil"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tamil": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "maxOutputTokens": 65536,
+          "thinkingConfig": {
+            "thinkingLevel": "HIGH",
+            "includeThoughts": false
+          }
+        },
+        "user_intro_preview": "Translate these sermon paragraphs into Tamil. Keep every label in the given order. Return compact JSON only: {\"sermon_id\",\"tamil_title\",\"paragraphs\":[{\"label\",\"tamil\"}]}. Do not repeat English paragraph text in the response. Do not summariz…",
+        "payload_paragraph_count": 47,
+        "payload_labels": [
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97"
+        ]
+      },
+      "hashes": {
+        "system_prompt": "150fbd32ec2ba05767982121150100ede26430a64285f3a15f29d6bc806ce127",
+        "user_prompt": "1faf5a45cbdb32a413551873d45d6752f59dc518843ff2ad91b6dbda1ef531cf",
+        "payload": "e9c19fb9d529feaa29422b05cca53e18e005be27771ed146bc93c04f328ea4f3"
+      }
+    }
+  ],
+  "totals": {
+    "system_prompt_tokens_sum": 49940,
+    "user_prompt_tokens_sum": 30480,
+    "total_input_tokens_sum": 80420,
+    "estimated_visible_tamil_json_sum": 41197,
+    "note": "System prompt is repeated once per chunk request (full knowledge each time).",
+    "cost": {
+      "usd_inr": 84,
+      "gst_rate": 0.18,
+      "likely_inr_gst": 91.24,
+      "high_reserve_inr_gst": 122.04,
+      "maximum_potential_inr_gst": 171.84,
+      "likely_usd": 0.920548,
+      "high_reserve_usd": 1.231204,
+      "maximum_potential_usd": 1.733704
+    }
+  },
+  "bible_match_corrections": {
+    "previous_report": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c2-execution-preflight.json",
+    "removed_bible_matches": [],
+    "retained_bible_matches": [
+      {
+        "chunk_index": 1,
+        "ref": "John 5:6",
+        "sermon_passage": "He told him, “Will thou be made whole?” He said, “Sir, I have no one to put me in the water.",
+        "matched_query": "Will thou be made whole?",
+        "match_method": "fts_kjv_wording",
+        "consecutive_ngram": {
+          "n": 5,
+          "phrase": "will you be made whole"
+        }
+      },
+      {
+        "chunk_index": 1,
+        "ref": "John 5:7",
+        "sermon_passage": "He told him, “Will thou be made whole?” He said, “Sir, I have no one to put me in the water.” He said, “Take up your bed and walk.",
+        "matched_query": "Sir, I have no one to put me in the water.",
+        "match_method": "fts_phrase_prefix",
+        "consecutive_ngram": {
+          "n": 4,
+          "phrase": "sir i have no"
+        }
+      },
+      {
+        "chunk_index": 1,
+        "ref": "John 5:8",
+        "sermon_passage": "” He said, “Take up your bed and walk.” See, He didn’t have to argue with him, because Christ knew that that man had faith to be healed; and the man picked up his bed and went on.",
+        "matched_query": "Take up your bed and walk.",
+        "match_method": "fts_kjv_wording",
+        "consecutive_ngram": {
+          "n": 6,
+          "phrase": "take up your bed and walk"
+        }
+      },
+      {
+        "chunk_index": 1,
+        "ref": "John 11:39",
+        "sermon_passage": "You see? It’s got to be a part like Mary told—or Jesus told Mary and Martha: “Take ye away the stone.” See? You got something to do, yourself.",
+        "matched_query": "Take ye away the stone.",
+        "match_method": "fts_kjv_wording",
+        "consecutive_ngram": {
+          "n": 5,
+          "phrase": "take ye away the stone"
+        }
+      }
+    ]
+  },
+  "guide_instruction_correction": {
+    "replaced_from": "Retrieve 5–10 Bible pairs per request via FTS. Never dump the Bible into the prompt.",
+    "replaced_with": "Use only the verified Bible pairs explicitly supplied in this request. Do not perform additional Bible retrieval during generation. There is no minimum number of Bible pairs: zero is valid when no reliable quotation or clear reference exists. Never invent or paraphrase a Bible translation. Use supplied Tamil BSI O.V. wording unchanged.",
+    "chunk_checks": [
+      {
+        "chunk": "chunk_1_header_1_50",
+        "old_5_10_instruction_absent": true,
+        "new_supplied_pairs_instruction_present": true,
+        "john_5_12_absent": true,
+        "bible_refs": [
+          "John 5:6",
+          "John 5:7",
+          "John 5:8",
+          "John 11:39"
+        ]
+      },
+      {
+        "chunk": "chunk_2_51_97",
+        "old_5_10_instruction_absent": true,
+        "new_supplied_pairs_instruction_present": true,
+        "john_5_12_absent": true,
+        "bible_refs": []
+      }
+    ],
+    "chunk1_expected_refs": [
+      "John 5:6",
+      "John 5:7",
+      "John 5:8",
+      "John 11:39"
+    ],
+    "chunk2_expected_refs": []
+  },
+  "both_chunks_safe_to_execute_independently": true,
+  "execution_gate": {
+    "chunk_1_requires_separate_explicit_approval": true,
+    "chunk_2_requires_separate_explicit_approval_after_chunk_1_review": true,
+    "do_not_start_either_chunk_without_approval": true
+  },
+  "confirmation": {
+    "zero_paid_generation_requests": true,
+    "generateContent_called": false,
+    "translation_performed": false,
+    "gcs_cache_batch": false,
+    "database_writes": false,
+    "baseline_not_overwritten": true
+  },
+  "hashes": {
+    "source_sermon": "ed434bd44653c254b52a919721bea4df118c705bb5580cd3dcd130ef9c1ea67f",
+    "knowledge_package": "4c406db790a6615c94209f21b1dceea5a49e61967e947d27c3f5e401b59541c6"
+  },
+  "input_verification": {
+    "all_ok": true
+  },
+  "stop": true,
+  "approval_required_for": "Chunk 1 generateContent only after explicit approval; then Chunk 2 after review"
+}

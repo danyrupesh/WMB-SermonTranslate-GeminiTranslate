@@ -1,0 +1,1380 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "auto_approved": false,
+  "entries": [
+    {
+      "english": "Jeffersonville Indiana U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 55,
+          "source_ids": [
+            "sermon_pair_003850",
+            "sermon_pair_005842",
+            "sermon_pair_006425"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003850",
+        "sermon_pair_005842",
+        "sermon_pair_006425",
+        "sermon_pair_010517"
+      ],
+      "occurrence_count": 55,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "jeffersonville indiana",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 55,
+          "source_ids": [
+            "sermon_pair_003850",
+            "sermon_pair_005842",
+            "sermon_pair_006425"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003850",
+        "sermon_pair_005842",
+        "sermon_pair_006425",
+        "sermon_pair_010517"
+      ],
+      "occurrence_count": 55,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "hebrews",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர் 13:",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_056383",
+            "sermon_pair_057510"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_042021",
+        "sermon_pair_056383",
+        "sermon_pair_057510",
+        "sermon_pair_023398"
+      ],
+      "occurrence_count": 12,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "revelation",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வெளிப்படுத்தல்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_065003",
+            "sermon_pair_065003"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006272",
+        "sermon_pair_055607",
+        "sermon_pair_065003",
+        "sermon_pair_004828"
+      ],
+      "occurrence_count": 11,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "matthew",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"பாருங்கள்,\" நீங்கள், \"மத்தேயு 28:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_041350"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043493",
+        "sermon_pair_032378",
+        "sermon_pair_041350",
+        "sermon_pair_048393"
+      ],
+      "occurrence_count": 8,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "genesis",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆதியாகமம் 48,",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_031820"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043664",
+        "sermon_pair_017280",
+        "sermon_pair_031820",
+        "sermon_pair_047134"
+      ],
+      "occurrence_count": 7,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "malachi",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மல்கியா",
+          "count": 6,
+          "source_ids": [
+            "sermon_pair_061355",
+            "sermon_pair_061355",
+            "sermon_pair_069282"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061355",
+        "sermon_pair_069282",
+        "sermon_pair_071456",
+        "sermon_pair_049624"
+      ],
+      "occurrence_count": 7,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "believe",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது அவன், \"ஓ\" என்று கூறி, \"அவன் விசுவாசிக்க வேண்டும்\" என்று கூறினான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015234"
+          ]
+        },
+        {
+          "tamil": "அப்படியே விசுவாசியுங்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018603"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் விசுவாசிக்கிறீர்களா? [சபையோர், \"ஆமென்\" என்கிறார்கள்.—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018638"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015234",
+        "sermon_pair_018603",
+        "sermon_pair_018638",
+        "sermon_pair_018643"
+      ],
+      "occurrence_count": 6,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Jehovah-Jireh",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யேகோவா-யீரே",
+          "count": 6,
+          "source_ids": [
+            "sermon_pair_043842",
+            "sermon_pair_043842",
+            "sermon_pair_044067"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043842",
+        "sermon_pair_044067",
+        "sermon_pair_044300"
+      ],
+      "occurrence_count": 6,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "luke",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதல் 12, லூக்கா 11:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_032380"
+          ]
+        },
+        {
+          "tamil": "மற்றும் 22. லூக்கா 10:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_032381"
+          ]
+        },
+        {
+          "tamil": "மேலும், லூக்கா 17:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_070141"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_032380",
+        "sermon_pair_032381",
+        "sermon_pair_070141",
+        "sermon_pair_073544"
+      ],
+      "occurrence_count": 4,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Hebrews 13:",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர் 13:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_057510"
+          ]
+        },
+        {
+          "tamil": "\"இயேசு கிறிஸ்து நேற்றும் இன்றும் என்றும் மாறாதவராயிருக்கிறார்\" என்று எபி.13:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_065529"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_045956",
+        "sermon_pair_057510",
+        "sermon_pair_065529",
+        "sermon_pair_069120"
+      ],
+      "occurrence_count": 4,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Hebrews, Chapter Two",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், இரண்டாம் அதிகாரம்",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_015293",
+            "sermon_pair_015388",
+            "sermon_pair_015481"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015293",
+        "sermon_pair_015388",
+        "sermon_pair_015481"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "hebrews chapter two",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், இரண்டாம் அதிகாரம்",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_015293",
+            "sermon_pair_015388",
+            "sermon_pair_015481"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015293",
+        "sermon_pair_015388",
+        "sermon_pair_015481"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "abraham",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவரோ, \"ஆபிரகாம் உண்டாகிறதற்கு முன்னமே நான் இருக்கிறேன்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015438"
+          ]
+        },
+        {
+          "tamil": "ஆபிரகாம், \"ஓ…\" என்றான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017784"
+          ]
+        },
+        {
+          "tamil": "அபிமெலேக்கு, ''ஆபிரகாமே, நீ ஏன் இப்படி செய்தாய்?'' என்று கேட்டான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_031167"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015438",
+        "sermon_pair_017784",
+        "sermon_pair_031167"
+      ],
+      "occurrence_count": 3,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "isaiah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அது ஒரு அடையாளமாய் இருக்குமென்று ஏசாயா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_060637",
+            "sermon_pair_060637"
+          ]
+        },
+        {
+          "tamil": "ஏசாயா 60:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_059094"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_060637",
+        "sermon_pair_059094"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "john",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"யோவானே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001512"
+          ]
+        },
+        {
+          "tamil": "யோவான் 14:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028513"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001512",
+        "sermon_pair_028513"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "acts",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்போஸ்தலர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010920"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_004242",
+        "sermon_pair_010920"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Hebrews, Chapter Six",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஆறாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016253",
+            "sermon_pair_016918"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016253",
+        "sermon_pair_016918"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "hebrews chapter six",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஆறாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016253",
+            "sermon_pair_016918"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016253",
+        "sermon_pair_016918"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Hebrews, Chapter Seven",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஏழாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016709",
+            "sermon_pair_017142"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016709",
+        "sermon_pair_017142"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "hebrews chapter seven",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஏழாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016709",
+            "sermon_pair_017142"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016709",
+        "sermon_pair_017142"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "name jesus christ",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது நான், \"இயேசு கிறிஸ்துவின் நாமத்தில்\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017670"
+          ]
+        },
+        {
+          "tamil": "இயேசு கிறிஸ்துவின் நாமத்தினாலே …?…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051636"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017670",
+        "sermon_pair_051636"
+      ],
+      "occurrence_count": 2,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let's john",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யோவான்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_044943"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_032396",
+        "sermon_pair_044943"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Now, Hebrews",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, எபிரேயர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_033546"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_033546",
+        "sermon_pair_036793"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "notice revelation",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கவனியுங்கள், வெளிப்படுத்தல்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_045728"
+          ]
+        },
+        {
+          "tamil": "வெளிப்படுத்தின விசேஷம் 16:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_070603"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_045728",
+        "sermon_pair_070603"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "jesus",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சுவிசேஷமானது... இயேசுவால் அதுவரை ... வரமுடியாது.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006560"
+          ]
+        },
+        {
+          "tamil": "அப்பொழுது அவர், \"நான் இயேசு\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015939"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006560",
+        "sermon_pair_009560",
+        "sermon_pair_015939",
+        "sermon_pair_017670"
+      ],
+      "occurrence_count": 14,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "christ",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது நான், \"இயேசு கிறிஸ்துவின் நாமத்தில்\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017670"
+          ]
+        },
+        {
+          "tamil": "கிறிஸ்து ஜீவிக்கிறார் என்று நீங்கள் நம்புகிறீர்களா?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_020417"
+          ]
+        },
+        {
+          "tamil": "இயேசு கிறிஸ்துவின் நாமத்தினாலே …?…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051636"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017670",
+        "sermon_pair_020417",
+        "sermon_pair_051636",
+        "sermon_pair_054835"
+      ],
+      "occurrence_count": 5,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "jehovah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யேகோவா-யீரே",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043842",
+            "sermon_pair_044067",
+            "sermon_pair_044300"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043842",
+        "sermon_pair_044067",
+        "sermon_pair_044300"
+      ],
+      "occurrence_count": 3,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "israel",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதல்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028403"
+          ]
+        },
+        {
+          "tamil": "ஆம் ஐயா! அவர்கள் இஸ்ரவேலர், ஆவிக்குரிய இஸ்ரவேலர்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051259"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_028403",
+        "sermon_pair_051259"
+      ],
+      "occurrence_count": 2,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Jeffersonville Indiana",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 55,
+          "source_ids": [
+            "sermon_pair_003850",
+            "sermon_pair_005842",
+            "sermon_pair_006425"
+          ]
+        },
+        {
+          "tamil": "57-0825e ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015294"
+          ]
+        },
+        {
+          "tamil": "57-0825m ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015389"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003850",
+        "sermon_pair_005842",
+        "sermon_pair_006425",
+        "sermon_pair_010517"
+      ],
+      "occurrence_count": 64,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Hebrews",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், இரண்டாம் அதிகாரம்",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_015293",
+            "sermon_pair_015388",
+            "sermon_pair_015481"
+          ]
+        },
+        {
+          "tamil": "எபிரெயர், ஆறாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016253",
+            "sermon_pair_016918"
+          ]
+        },
+        {
+          "tamil": "எபிரெயர், ஏழாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016709",
+            "sermon_pair_017142"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015293",
+        "sermon_pair_015388",
+        "sermon_pair_015481",
+        "sermon_pair_016253"
+      ],
+      "occurrence_count": 17,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Revelation",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆம், ஐயா! வெளிப்படுத்தின விசேஷம் 13:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_023133"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006272",
+        "sermon_pair_023133",
+        "sermon_pair_041781",
+        "sermon_pair_045728"
+      ],
+      "occurrence_count": 8,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Genesis",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆகையால் அதைத்தான் ஆதியாகமம்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017869"
+          ]
+        },
+        {
+          "tamil": "ஆதியாகமம் 48,",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_031820"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017869",
+        "sermon_pair_031820",
+        "sermon_pair_043664",
+        "sermon_pair_047134"
+      ],
+      "occurrence_count": 6,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Malachi",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மல்கியா",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_061355",
+            "sermon_pair_069282",
+            "sermon_pair_071456"
+          ]
+        },
+        {
+          "tamil": "கர்த்தருடைய பெரிதும் பயங்கரமுமான நாள் வருவதற்கு முன்பு இது நடக்குமென்று மல்கியா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_065721"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061355",
+        "sermon_pair_069282",
+        "sermon_pair_071456",
+        "sermon_pair_049624"
+      ],
+      "occurrence_count": 5,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "First John",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_024652"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_024652",
+        "sermon_pair_046460",
+        "sermon_pair_049151"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Jehovah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யேகோவா-யீரே",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043842",
+            "sermon_pair_044067",
+            "sermon_pair_044300"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043842",
+        "sermon_pair_044067",
+        "sermon_pair_044300"
+      ],
+      "occurrence_count": 3,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Romans",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ரோமர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_065760"
+          ]
+        },
+        {
+          "tamil": "வார்த்தை…\"இந்த ஆவி,\" ரோமர் 8:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_068526"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_047787",
+        "sermon_pair_065760",
+        "sermon_pair_068526"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Isaiah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஏசாயா 60:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_059094"
+          ]
+        },
+        {
+          "tamil": "அது ஒரு அடையாளமாய் இருக்குமென்று ஏசாயா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_060637"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_059094",
+        "sermon_pair_060637",
+        "sermon_pair_073961"
+      ],
+      "occurrence_count": 3,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Acts",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்போஸ்தலர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010920"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_004242",
+        "sermon_pair_010920"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Jesus",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது அவர், \"நான் இயேசு\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015939"
+          ]
+        },
+        {
+          "tamil": "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_055850"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015939",
+        "sermon_pair_055850"
+      ],
+      "occurrence_count": 2,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Chapter Seven",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஏழாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016709",
+            "sermon_pair_017142"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016709",
+        "sermon_pair_017142"
+      ],
+      "occurrence_count": 2,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "John",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யோவான் 14:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028513"
+          ]
+        },
+        {
+          "tamil": "யோவான்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_044943"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_028513",
+        "sermon_pair_044943"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Luke",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மற்றும் 22. லூக்கா 10:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_032381"
+          ]
+        },
+        {
+          "tamil": "மேலும், லூக்கா 17:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_070141"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_032381",
+        "sermon_pair_070141"
+      ],
+      "occurrence_count": 2,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "in the name of jesus",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இயேசு கிறிஸ்துவின் நாமத்தினாலே …?…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051636"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000220",
+        "sermon_pair_000233",
+        "sermon_pair_000236",
+        "sermon_pair_000238"
+      ],
+      "occurrence_count": 1256,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "in the name of jesus christ",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இயேசு கிறிஸ்துவின் நாமத்தினாலே …?…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051636"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000220",
+        "sermon_pair_000233",
+        "sermon_pair_000236",
+        "sermon_pair_000238"
+      ],
+      "occurrence_count": 1152,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "jeffersonville indiana u",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஜெபர்ஸன்வில் இந்தியானா அமெரிக்கா",
+          "count": 55,
+          "source_ids": [
+            "sermon_pair_003850",
+            "sermon_pair_005842",
+            "sermon_pair_006425"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003053",
+        "sermon_pair_003850",
+        "sermon_pair_005081",
+        "sermon_pair_005842"
+      ],
+      "occurrence_count": 123,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "believest thou this",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இதை விசுவாசிக்கிறாயா? 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_025973"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001727",
+        "sermon_pair_001885",
+        "sermon_pair_003063",
+        "sermon_pair_003119"
+      ],
+      "occurrence_count": 48,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seventh seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஏழாவது முத்திரை தொடர்கிறது.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051109"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034726",
+        "sermon_pair_044748",
+        "sermon_pair_047781",
+        "sermon_pair_047912"
+      ],
+      "occurrence_count": 38,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "in hebrews 13",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர் 13:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_056383"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_002004",
+        "sermon_pair_011640",
+        "sermon_pair_014611",
+        "sermon_pair_018481"
+      ],
+      "occurrence_count": 13,
+      "context": "English looks like a Bible book/reference; keep short Tamil book-name forms only",
+      "confidence": "medium",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "then jesus came and",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதன் பின்னர் இயேசு வந்து அழைத்தார் 64-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_060561"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048015",
+        "sermon_pair_052436",
+        "sermon_pair_060419",
+        "sermon_pair_060483"
+      ],
+      "occurrence_count": 5,
+      "context": "Proper name with short Tamil equivalent(s)",
+      "confidence": "high",
+      "evidence_classification": "biblical_book_or_name_reference",
+      "auto_approved": false,
+      "invented": false
+    }
+  ]
+}

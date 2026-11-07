@@ -1,0 +1,41 @@
+1. Fine tune the prompt for maximum accuracy
+2. Batch api : instruction - 100 messages at least English and Tamil.
+3. Convert one new English message into Tamil via API.
+
+1. GCS corpus upload
+2. Gemini Batch API each request for each sermon. 
+3. Count its tokens.
+4. Create a reusable context cache with the corpus and master instructions.
+5. Reference the cache in all 800 Batch API requests using cachedContent.
+
+Google's Batch API request supports a cachedContent reference.
+
+{
+  "key": "sermon_001",
+  "request": {
+    "cachedContent": "cachedContents/YOUR_CACHE_ID",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Translate this complete English sermon into Tamil..."
+          }
+        ]
+      }
+    ]
+  }
+}
+
+The cached content is reused; you don't insert the 140 MB corpus into every request.
+
+
+Use GCS for both source files, Node.js for orchestration, Flash-Lite for complete corpus analysis, and Pro Batch for the 800 actual translations.
+
+Complete cost estimate for 800 sermons
+Your proposed combination is:
+- Gemini 3.1 Flash-Lite Batch: Analyze all 400 approved English–Tamil translations.
+- Gemini 3.1 Pro Preview Batch: Translate all 800 new English sermons.
+- Gemini 3.1 Flash-Lite Batch: Validate the resulting 800 translations.
+
+--Documentation.

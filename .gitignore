@@ -1,0 +1,44 @@
+# Secrets — never commit
+Key.secure.txt
+*.secure.txt
+.env
+.env.*
+*.pem
+
+# Dependencies
+node_modules/
+
+# Large local databases / FTS
+db_source/
+**/*.sqlite
+**/*.sqlite-shm
+**/*.sqlite-wal
+knowledge/bible_fts.sqlite*
+
+# Large parallel / Bible / corpus datasets
+dataset/
+clean_dataset/
+second_corpus/
+consolidated_reference/
+bible_parallel_dataset.json
+bible_parallel_dataset.meta.json
+data-quality-report.json
+second-corpus-quality-report.json
+
+# Full example library (large); distilled prompt_package stays
+knowledge/library/
+
+# Generated / bulky report artifacts
+reports/**/*.xlsx
+reports/english_source_sermons/
+reports/eng_tamil_output/
+reports/tamil_output_folder/
+reports/responses/
+reports/terminology-conflict-review.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

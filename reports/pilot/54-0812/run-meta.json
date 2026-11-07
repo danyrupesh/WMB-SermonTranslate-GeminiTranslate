@@ -1,0 +1,17 @@
+{
+  "sermon_id": "54-0812",
+  "title": "Prayer Line",
+  "model": "gemini-3.1-pro-preview",
+  "english_paragraphs": 17,
+  "tamil_paragraphs": 17,
+  "bible_pairs_injected": 0,
+  "ms": 69633,
+  "usage": {
+    "promptTokenCount": 18911,
+    "candidatesTokenCount": 5443,
+    "totalTokenCount": 30097
+  },
+  "out_json": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\sermon_54-0812.en-ta.json",
+  "out_html": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\sermon_54-0812.preview.html",
+  "note": "Pilot draft. Not copied to source_of_truth or approved 419."
+}

@@ -1,0 +1,22 @@
+{
+  "sermon_id": "47-1207",
+  "chunk": 1,
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "prompt_version": "phase3c3-bible-guide-fix-1",
+  "finishReason": "PROHIBITED_CONTENT",
+  "usage": {
+    "promptTokenCount": 40322,
+    "totalTokenCount": 40322,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 40322
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "generateError": null,
+  "text": "",
+  "ms": 281580
+}

@@ -1,0 +1,3294 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "auto_approved": false,
+  "entries": [
+    {
+      "english": "Phoenix Arizona U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பினீக்ஸ் அரிசோனா அமெரிக்கா",
+          "count": 8,
+          "source_ids": [
+            "sermon_pair_046180",
+            "sermon_pair_046850",
+            "sermon_pair_047185"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_046180",
+        "sermon_pair_046850",
+        "sermon_pair_047185",
+        "sermon_pair_059795"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "phoenix arizona",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பினீக்ஸ் அரிசோனா அமெரிக்கா",
+          "count": 8,
+          "source_ids": [
+            "sermon_pair_046180",
+            "sermon_pair_046850",
+            "sermon_pair_047185"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_046180",
+        "sermon_pair_046850",
+        "sermon_pair_047185",
+        "sermon_pair_059795"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "62-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "62-",
+          "count": 6,
+          "source_ids": [
+            "sermon_pair_043843",
+            "sermon_pair_043843",
+            "sermon_pair_044068"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043843",
+        "sermon_pair_044068",
+        "sermon_pair_044301"
+      ],
+      "occurrence_count": 6,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "bow heads moment",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சற்று நாம் நம்முடைய தலைகளை வணங்கலாமா.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010427"
+          ]
+        },
+        {
+          "tamil": "அப்படியே ஒரு வினாடி நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013273"
+          ]
+        },
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை சற்று நேரம் தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028120"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010427",
+        "sermon_pair_013273",
+        "sermon_pair_028120",
+        "sermon_pair_050620"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "heads bowed",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நம்முடைய தலைகள் வணங்கிருப்பதோடு;",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018041"
+          ]
+        },
+        {
+          "tamil": "நாம் நமது தலைகள் வணங்கியவாறு இருக்கையில்:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_034521"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் உங்களுடைய தலைகளை வணங்கியிருக்கையில்:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_038059"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_018041",
+        "sermon_pair_034521",
+        "sermon_pair_038059",
+        "sermon_pair_047721"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "bow heads",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021303",
+            "sermon_pair_038064"
+          ]
+        },
+        {
+          "tamil": "நாம் இப்பொழுது நம்முடைய தலைகளைத் தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048249"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_021303",
+        "sermon_pair_038064",
+        "sermon_pair_048249",
+        "sermon_pair_060824"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Tucson Arizona U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டூசான் அரிசோனா அமெரிக்கா",
+          "count": 4,
+          "source_ids": [
+            "sermon_pair_052177",
+            "sermon_pair_058313",
+            "sermon_pair_066118"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_052177",
+        "sermon_pair_058313",
+        "sermon_pair_066118",
+        "sermon_pair_072982"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "tucson arizona",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டூசான் அரிசோனா அமெரிக்கா",
+          "count": 4,
+          "source_ids": [
+            "sermon_pair_052177",
+            "sermon_pair_058313",
+            "sermon_pair_066118"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_052177",
+        "sermon_pair_058313",
+        "sermon_pair_066118",
+        "sermon_pair_072982"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "going",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"சரி,\" \"நாம் என்ன செய்யப் போகிறோம்?\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_011792"
+          ]
+        },
+        {
+          "tamil": "\"நல்லது, இப்பொழுது, நீங்கள் இப்பொழுது என்ன செய்யப் போகிறீர்கள்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013718"
+          ]
+        },
+        {
+          "tamil": "\"அது எப்படி நடக்கும்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073505"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_011792",
+        "sermon_pair_013718",
+        "sermon_pair_073505"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "don't",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு நான், \"இல்லை, எனக்கு அடையாளங்கொள்ள முடியவில்லை\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017495"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் ஒருக்கால், \"நல்லது, எனக்கு அதைக் குறித்து தெரியாது\" என்று சொல்லலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049966"
+          ]
+        },
+        {
+          "tamil": "நான், செய்யாதீர்கள்\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073519"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017495",
+        "sermon_pair_049966",
+        "sermon_pair_073519"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Let us bow our heads.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021303",
+            "sermon_pair_038064"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_021303",
+        "sermon_pair_038064",
+        "sermon_pair_060824"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Grass Valley California U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கிராஸ் வேலி கலிபோர்னியா அமெரிக்கா",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043844",
+            "sermon_pair_044069",
+            "sermon_pair_044302"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043844",
+        "sermon_pair_044069",
+        "sermon_pair_044302"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "grass valley california",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கிராஸ் வேலி கலிபோர்னியா அமெரிக்கா",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043844",
+            "sermon_pair_044069",
+            "sermon_pair_044302"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043844",
+        "sermon_pair_044069",
+        "sermon_pair_044302"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Chicago Illinois U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சிகாகோ இல்லினாய்ஸ் அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_008853"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_008853",
+        "sermon_pair_013178"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "chicago illinois",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சிகாகோ இல்லினாய்ஸ் அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_008853"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_008853",
+        "sermon_pair_013178"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Enticing Spirits 55-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நயவஞ்சக ஆவிகள் 55-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_010516",
+            "sermon_pair_010516"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010516"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "57-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "57-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_015482",
+            "sermon_pair_015482"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015482"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Faith 61-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "விசுவாசம் 61-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_036114",
+            "sermon_pair_036114"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_036114"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Communion 62-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இராப்போஜனம் 62-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_040536",
+            "sermon_pair_040536"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_040536"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Victory Day 63-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வெற்றியின் நாள் 63-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_052050",
+            "sermon_pair_052050"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_052050"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Denham Springs Louisiana U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டென்ஹாம் ஸ்பிரிங்ஸ் லூசியானா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_061223",
+            "sermon_pair_061771"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061223",
+        "sermon_pair_061771"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "denham springs louisiana",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டென்ஹாம் ஸ்பிரிங்ஸ் லூசியானா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_061223",
+            "sermon_pair_061771"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061223",
+        "sermon_pair_061771"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Spiritual Amnesia 64-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆவிக்குரிய நினைவிழப்பு 64-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_061998",
+            "sermon_pair_061998"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061998"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Broken Cisterns 65-",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வெடிப்புள்ள தொட்டிகள் 65-",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_067165",
+            "sermon_pair_067165"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_067165"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Los Angeles California U.S.A.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_069260",
+            "sermon_pair_069543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_069260",
+        "sermon_pair_069543"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "los angeles california",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_069260",
+            "sermon_pair_069543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_069260",
+        "sermon_pair_069543"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "prophet",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"தீர்க்கதரிசியாகிய எசேக்கியேலே, நீ அவரைக் குறித்து என்ன நினைக்கிறாய்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001478"
+          ]
+        },
+        {
+          "tamil": "ஒரு உண்மையான தீர்க்கதரிசியின் பாதை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_047184"
+          ]
+        },
+        {
+          "tamil": "\"கர்த்தருடைய தீர்க்கதரிசி ஒருவர் இருக்கிறாரா?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074887"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001478",
+        "sermon_pair_047184",
+        "sermon_pair_074887"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Phoenix Arizona",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பினீக்ஸ் அரிசோனா அமெரிக்கா",
+          "count": 8,
+          "source_ids": [
+            "sermon_pair_046180",
+            "sermon_pair_046850",
+            "sermon_pair_047185"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_046180",
+        "sermon_pair_046850",
+        "sermon_pair_047185",
+        "sermon_pair_059795"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "You",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நீங்கள் விசுவாசிக்கிறீர்களா? [சபையோர், \"ஆமென்\" என்கின்றனர்.—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018598"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் அவரை விசுவாசிக்கின்றீர்களா? [சபையார் \"ஆமென்\" என்று கூறி களிகூருகின்றனர் - ஆசி.)",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_040384"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் உட்கார்ந்து கொள்ளலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_018598",
+        "sermon_pair_040384",
+        "sermon_pair_050543",
+        "sermon_pair_069415"
+      ],
+      "occurrence_count": 5,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "God",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனிடத்தில் விசுவாசமாயிருங்கள். [சகோதரன் பிரான்ஹாம் பேசாமல் நிறுத்துகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_009579"
+          ]
+        },
+        {
+          "tamil": "தேவனுக்கு ஸ்தோத்திரம் உண்டாவதாக!",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010414"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_009579",
+        "sermon_pair_010414",
+        "sermon_pair_047560",
+        "sermon_pair_074270"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Tucson Arizona",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டூசான் அரிசோனா அமெரிக்கா",
+          "count": 4,
+          "source_ids": [
+            "sermon_pair_052177",
+            "sermon_pair_058313",
+            "sermon_pair_066118"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_052177",
+        "sermon_pair_058313",
+        "sermon_pair_066118",
+        "sermon_pair_072982"
+      ],
+      "occurrence_count": 4,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "How",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்போஸ்தலர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010920"
+          ]
+        },
+        {
+          "tamil": "\"எத்தனைபேர் உள்ளே பிரவேசிக்கப்போகிறார்கள்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_021872"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010920",
+        "sermon_pair_021872",
+        "sermon_pair_048393"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Chapter Two",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், இரண்டாம் அதிகாரம்",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_015293",
+            "sermon_pair_015388",
+            "sermon_pair_015481"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015293",
+        "sermon_pair_015388",
+        "sermon_pair_015481"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "What",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அது என்னவாயிருக்கிறது?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_022763"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049192"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_022763",
+        "sermon_pair_049192",
+        "sermon_pair_074004"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Jireh",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "யேகோவா-யீரே",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043842",
+            "sermon_pair_044067",
+            "sermon_pair_044300"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043842",
+        "sermon_pair_044067",
+        "sermon_pair_044300"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Grass Valley California",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கிராஸ் வேலி கலிபோர்னியா அமெரிக்கா",
+          "count": 3,
+          "source_ids": [
+            "sermon_pair_043844",
+            "sermon_pair_044069",
+            "sermon_pair_044302"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_043844",
+        "sermon_pair_044069",
+        "sermon_pair_044302"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Notice",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கவனியுங்கள், வெளிப்படுத்தல்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_045728"
+          ]
+        },
+        {
+          "tamil": "கவனியுங்கள், விக்கிரகாராதனையைக் கொண்டு வந்தது…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049923"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_045728",
+        "sermon_pair_049701",
+        "sermon_pair_049923"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "See",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவன் \"அப்படியென்றால் என்ன?\" என்று அவர்களையே கேட்டிருப்பான். பாருங்கள்?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049192"
+          ]
+        },
+        {
+          "tamil": "\"ஆம்! அது சரியே\" பார்?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_055842"
+          ]
+        },
+        {
+          "tamil": "என்னவென்று உங்களுக்குப் புரிகிறதா? பாருங்கள், அபிஷேகம் பண்ணப்பட்டவர்களே!",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_070647"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_049192",
+        "sermon_pair_055842",
+        "sermon_pair_070647"
+      ],
+      "occurrence_count": 3,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Chicago Illinois",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சிகாகோ இல்லினாய்ஸ் அமெரிக்கா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_008853"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_008853",
+        "sermon_pair_013178"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Chapter Six",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபிரெயர், ஆறாம் அதிகாரம்",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_016253",
+            "sermon_pair_016918"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016253",
+        "sermon_pair_016918"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "But",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "'அப்படியானால் நாம் யார்?''",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_027772"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_027772",
+        "sermon_pair_073961"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Denham Springs Louisiana",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "டென்ஹாம் ஸ்பிரிங்ஸ் லூசியானா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_061223",
+            "sermon_pair_061771"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061223",
+        "sermon_pair_061771"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "The",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ரோமர்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_065760"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_065760",
+        "sermon_pair_075032"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Los Angeles California",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_069260",
+            "sermon_pair_069543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_069260",
+        "sermon_pair_069543"
+      ],
+      "occurrence_count": 2,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let us bow",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021303",
+            "sermon_pair_038064"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000972",
+        "sermon_pair_001195",
+        "sermon_pair_002712",
+        "sermon_pair_003870"
+      ],
+      "occurrence_count": 204,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let us bow our",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021303",
+            "sermon_pair_038064"
+          ]
+        },
+        {
+          "tamil": "நாம் இப்பொழுது நம்முடைய தலைகளைத் தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048249"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000972",
+        "sermon_pair_002712",
+        "sermon_pair_003870",
+        "sermon_pair_004323"
+      ],
+      "occurrence_count": 202,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let us bow our heads",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021303",
+            "sermon_pair_038064"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபத்திற்காக நம்முடைய தலைகளைத் தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_022687"
+          ]
+        },
+        {
+          "tamil": "நாம் ஒரு நிமிடம் நம்முடைய தலைகளை வணங்குவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_037810"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000972",
+        "sermon_pair_002712",
+        "sermon_pair_003870",
+        "sermon_pair_004323"
+      ],
+      "occurrence_count": 193,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seal of",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_002094",
+        "sermon_pair_002101",
+        "sermon_pair_003605",
+        "sermon_pair_003607"
+      ],
+      "occurrence_count": 155,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "with our heads",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் தலைகுணிந்தவாறே.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_047721"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_009464",
+        "sermon_pair_010031",
+        "sermon_pair_010386",
+        "sermon_pair_010827"
+      ],
+      "occurrence_count": 94,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "with our heads bowed",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் தலைகுணிந்தவாறே.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_047721"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_009464",
+        "sermon_pair_010031",
+        "sermon_pair_010386",
+        "sermon_pair_010827"
+      ],
+      "occurrence_count": 86,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the seal of god",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003605",
+        "sermon_pair_003607",
+        "sermon_pair_004938",
+        "sermon_pair_005863"
+      ],
+      "occurrence_count": 80,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "now let's see",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது மத்தேயு 24:7-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050395"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000295",
+        "sermon_pair_000851",
+        "sermon_pair_001218",
+        "sermon_pair_001383"
+      ],
+      "occurrence_count": 78,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "praise be to",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுக்கு ஸ்தோத்திரம் உண்டாவதாக!",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010414"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001138",
+        "sermon_pair_001373",
+        "sermon_pair_001377",
+        "sermon_pair_001381"
+      ],
+      "occurrence_count": 71,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "praise be to god",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுக்கு ஸ்தோத்திரம் உண்டாவதாக!",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010414"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001138",
+        "sermon_pair_001373",
+        "sermon_pair_001377",
+        "sermon_pair_001381"
+      ],
+      "occurrence_count": 57,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the sixth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆறாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050800"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034727",
+        "sermon_pair_047910",
+        "sermon_pair_049357",
+        "sermon_pair_050253"
+      ],
+      "occurrence_count": 55,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "i had a little",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "என்னிடம் .",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_064670"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000765",
+        "sermon_pair_003057",
+        "sermon_pair_003127",
+        "sermon_pair_004772"
+      ],
+      "occurrence_count": 40,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "you may be seated",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நீங்கள் உட்கார்ந்து கொள்ளலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_012180",
+        "sermon_pair_022076",
+        "sermon_pair_022195",
+        "sermon_pair_022328"
+      ],
+      "occurrence_count": 40,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "turn on the",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வெளிச்சத்தைப் பிரகாசிக்கச் செய் 64-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_059794"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_005497",
+        "sermon_pair_006042",
+        "sermon_pair_008464",
+        "sermon_pair_012498"
+      ],
+      "occurrence_count": 37,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "so that's what",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆகையால் அதைத்தான் ஆதியாகமம்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017869"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000001",
+        "sermon_pair_002017",
+        "sermon_pair_004160",
+        "sermon_pair_004493"
+      ],
+      "occurrence_count": 36,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "shall we bow our heads",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சற்று நாம் நம்முடைய தலைகளை வணங்கலாமா.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_010427"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_000337",
+        "sermon_pair_000774",
+        "sermon_pair_000897",
+        "sermon_pair_000916"
+      ],
+      "occurrence_count": 34,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the ephesian church",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபேசு சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028898"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_005844",
+        "sermon_pair_005892",
+        "sermon_pair_006370",
+        "sermon_pair_009437"
+      ],
+      "occurrence_count": 31,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the first seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதலாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048697"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_030640",
+        "sermon_pair_034727",
+        "sermon_pair_045642",
+        "sermon_pair_045713"
+      ],
+      "occurrence_count": 30,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the philadelphian church",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பிலதெல்பியா சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_030154"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003885",
+        "sermon_pair_006406",
+        "sermon_pair_010611",
+        "sermon_pair_011501"
+      ],
+      "occurrence_count": 27,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "and the voice",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அந்தச் சத்தம், \"சாமுவேலே\" என்றது.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_020552"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010913",
+        "sermon_pair_015343",
+        "sermon_pair_016190",
+        "sermon_pair_020552"
+      ],
+      "occurrence_count": 27,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "is the sign",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அடையாளமாயிருக்கிறதையும், மல்கியா",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_061342"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010782",
+        "sermon_pair_020559",
+        "sermon_pair_022922",
+        "sermon_pair_033282"
+      ],
+      "occurrence_count": 23,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "now let us pray",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_014122"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_014122",
+        "sermon_pair_014272",
+        "sermon_pair_018035",
+        "sermon_pair_018087"
+      ],
+      "occurrence_count": 21,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the fourth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நான்காம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049830"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_049105",
+        "sermon_pair_049433",
+        "sermon_pair_049434",
+        "sermon_pair_049434"
+      ],
+      "occurrence_count": 21,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the fifth seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஐந்தாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050312"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_004916",
+        "sermon_pair_049967",
+        "sermon_pair_050135",
+        "sermon_pair_050135"
+      ],
+      "occurrence_count": 20,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "spirit of truth",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சத்தியத்தின் ஆவி 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_046849"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_014746",
+        "sermon_pair_022217",
+        "sermon_pair_022217",
+        "sermon_pair_022217"
+      ],
+      "occurrence_count": 20,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "and under the",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மத்தேயு 24:9-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050404"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_002028",
+        "sermon_pair_002040",
+        "sermon_pair_006183",
+        "sermon_pair_007822"
+      ],
+      "occurrence_count": 17,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "phoenix arizona u",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பினீக்ஸ் அரிசோனா அமெரிக்கா",
+          "count": 8,
+          "source_ids": [
+            "sermon_pair_046180",
+            "sermon_pair_046850",
+            "sermon_pair_047185"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_039343",
+        "sermon_pair_039616",
+        "sermon_pair_046180",
+        "sermon_pair_046850"
+      ],
+      "occurrence_count": 17,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "high",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "now let's pray",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050635"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_009340",
+        "sermon_pair_009541",
+        "sermon_pair_014113",
+        "sermon_pair_014812"
+      ],
+      "occurrence_count": 16,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "turn on the light",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வெளிச்சத்தைப் பிரகாசிக்கச் செய் 64-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_059794"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006042",
+        "sermon_pair_045636",
+        "sermon_pair_058870",
+        "sermon_pair_058881"
+      ],
+      "occurrence_count": 15,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "now we're going to read",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது நாம் எண்ணாகமம் 16:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_052501"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_010553",
+        "sermon_pair_016518",
+        "sermon_pair_017047",
+        "sermon_pair_019127"
+      ],
+      "occurrence_count": 15,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the easter seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஈஸ்டர் முத்திரை 65-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_068594"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_033901",
+        "sermon_pair_033903",
+        "sermon_pair_033903",
+        "sermon_pair_033951"
+      ],
+      "occurrence_count": 15,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "questions and answers",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கேள்விகளும் பதில்களும் 61-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_033082"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_002245",
+        "sermon_pair_003849",
+        "sermon_pair_005081",
+        "sermon_pair_017455"
+      ],
+      "occurrence_count": 13,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the ephesian church age",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "எபேசு சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028898"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_005844",
+        "sermon_pair_005892",
+        "sermon_pair_009437",
+        "sermon_pair_019618"
+      ],
+      "occurrence_count": 13,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the second coming of the",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கர்த்தருடைய இரண்டாம் வருகை 57-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_014132"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007312",
+        "sermon_pair_008664",
+        "sermon_pair_010277",
+        "sermon_pair_010691"
+      ],
+      "occurrence_count": 13,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "second church age",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரண்டாவது சபைக்காலம் கி.பி.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029766"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006368",
+        "sermon_pair_028567",
+        "sermon_pair_028650",
+        "sermon_pair_028831"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the second coming of the lord",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "கர்த்தருடைய இரண்டாம் வருகை 57-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_014132"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007312",
+        "sermon_pair_008664",
+        "sermon_pair_010277",
+        "sermon_pair_010691"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the second seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரண்டாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049066"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034726",
+        "sermon_pair_048483",
+        "sermon_pair_048552",
+        "sermon_pair_048608"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the third seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "மூன்றாம் முத்திரை 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049425"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048483",
+        "sermon_pair_048844",
+        "sermon_pair_049159",
+        "sermon_pair_049206"
+      ],
+      "occurrence_count": 12,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the key to the",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வாசலுக்குத் திறவுகோல் 62-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_044713"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017134",
+        "sermon_pair_029923",
+        "sermon_pair_044639",
+        "sermon_pair_044639"
+      ],
+      "occurrence_count": 11,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the philadelphian church age",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பிலதெல்பியா சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_030154"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_019617",
+        "sermon_pair_019619",
+        "sermon_pair_019770",
+        "sermon_pair_028860"
+      ],
+      "occurrence_count": 11,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "proving his word",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அவருடைய வார்த்தையை நிரூபித்தல் 65-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_069542"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_033763",
+        "sermon_pair_063699",
+        "sermon_pair_063803",
+        "sermon_pair_063822"
+      ],
+      "occurrence_count": 11,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "los angeles california",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "லாஸ் ஏஞ்சல்ஸ் கலிபோர்னியா அமெரிக்கா",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_069260",
+            "sermon_pair_069543"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007081",
+        "sermon_pair_009205",
+        "sermon_pair_022631",
+        "sermon_pair_066596"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "and with our heads",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நம்முடைய தலைகள் வணங்கிருப்பதோடு;",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018041"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_013008",
+        "sermon_pair_013172",
+        "sermon_pair_016605",
+        "sermon_pair_018041"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "and with our heads bowed",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நம்முடைய தலைகள் வணங்கிருப்பதோடு;",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018041"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_013008",
+        "sermon_pair_013172",
+        "sermon_pair_016605",
+        "sermon_pair_018041"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "without money or without",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பணமுமின்றி விலையுமின்றி 59-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_023608"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_023528",
+        "sermon_pair_023542",
+        "sermon_pair_023568",
+        "sermon_pair_023570"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "without money or without price",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பணமுமின்றி விலையுமின்றி 59-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_023608"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_023528",
+        "sermon_pair_023542",
+        "sermon_pair_023568",
+        "sermon_pair_023570"
+      ],
+      "occurrence_count": 8,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the key to the door",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "வாசலுக்குத் திறவுகோல் 62-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_044713"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_029923",
+        "sermon_pair_044639",
+        "sermon_pair_044639",
+        "sermon_pair_044660"
+      ],
+      "occurrence_count": 7,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "the harvest time",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அறுப்புக் காலம் 64-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_065823"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_012832",
+        "sermon_pair_065457",
+        "sermon_pair_065767",
+        "sermon_pair_065823"
+      ],
+      "occurrence_count": 5,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "now turn to",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது வெளிப்படுத்தக் 2:18-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049711"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_022908",
+        "sermon_pair_034931",
+        "sermon_pair_035035",
+        "sermon_pair_046426"
+      ],
+      "occurrence_count": 5,
+      "context": "Single short Tamil equivalent evidenced in approved pairs",
+      "confidence": "medium",
+      "evidence_classification": "verified_terminology_mappings",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "sir",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நான், \"ஆம், ஐயா\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001438"
+          ]
+        },
+        {
+          "tamil": "அவர், \"ஆம், ஐயா\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001441"
+          ]
+        },
+        {
+          "tamil": "நீங்களோ, \"அவர்கள் அதை பார்த்திருக்கக்கூடுமா, நான் அதை பார்க்கவில்லையே?\" எனலாம். ஆம் ஐயா.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_008738"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001438",
+        "sermon_pair_001441",
+        "sermon_pair_008738",
+        "sermon_pair_017092"
+      ],
+      "occurrence_count": 8,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "pray",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021725",
+            "sermon_pair_022652"
+          ]
+        },
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_004934"
+          ]
+        },
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_014122"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_021725",
+        "sermon_pair_022652",
+        "sermon_pair_004934",
+        "sermon_pair_014122"
+      ],
+      "occurrence_count": 7,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Let us pray.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021725",
+            "sermon_pair_022652"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050246"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபிப்போமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_062573"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_021725",
+        "sermon_pair_022652",
+        "sermon_pair_050246",
+        "sermon_pair_062573"
+      ],
+      "occurrence_count": 4,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "right",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சரி:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017364"
+          ]
+        },
+        {
+          "tamil": "நான் \"சரி\" யென்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073987"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_013299",
+        "sermon_pair_017364",
+        "sermon_pair_073987"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "yeah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவரோ, \"ஆம், போப்புதான்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017331"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர், \"ஆம்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017335"
+          ]
+        },
+        {
+          "tamil": "நான், \"சரி\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050718"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017331",
+        "sermon_pair_017335",
+        "sermon_pair_050718"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "seated",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நீங்கள் உட்காரலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050256"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் உட்கார்ந்து கொள்ளலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050543"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் அமரலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051024"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_050256",
+        "sermon_pair_050543",
+        "sermon_pair_051024"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let's",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"நீ அதைச் செய் பார்க்கலாம்'' என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006626"
+          ]
+        },
+        {
+          "tamil": "அவர், ''சரி, போகலாம்'' என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_075104"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006626",
+        "sermon_pair_075104"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "that's right",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017615"
+          ]
+        },
+        {
+          "tamil": "\"ஆம்! அது சரியே\" பார்?",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_055842"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017615",
+        "sermon_pair_055842"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "god",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அவர், \"அவர் தேவனாயிருப்பார்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017663"
+          ]
+        },
+        {
+          "tamil": "\"ஆம், தேவன்\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074270"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017663",
+        "sermon_pair_074270"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "blank spot tape",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "[ஒலி நாடாவில் காலி இடம்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_019863"
+          ]
+        },
+        {
+          "tamil": "(ஒலி நாடாவில் காலி இடம்-ஆசி), \"என்ன?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074077"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_019863",
+        "sermon_pair_074077"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "to 606.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதல்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029351"
+          ]
+        },
+        {
+          "tamil": "முதல் கி.பி.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029966"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_029351",
+        "sermon_pair_029966"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "606",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "முதல்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029351"
+          ]
+        },
+        {
+          "tamil": "முதல் கி.பி.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029966"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_029351",
+        "sermon_pair_029966"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let's pray",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_034511"
+          ]
+        },
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050635"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_034511",
+        "sermon_pair_050635"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Be seated.",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நீங்கள் உட்காரலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050256"
+          ]
+        },
+        {
+          "tamil": "நீங்கள் அமரலாம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051024"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_050256",
+        "sermon_pair_051024"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "seal",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "தேவனுடைய முத்திரை 54-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006424"
+          ]
+        },
+        {
+          "tamil": "உண்மையான ஈஸ்டர் முத்திரை 61-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_034126"
+          ]
+        },
+        {
+          "tamil": "நாளை இரவு, தேவனுக்குச் சித்தமானால், நாம் இரண்டாம் முத்திரையைப் பார்ப்போம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048608"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006424",
+        "sermon_pair_034126",
+        "sermon_pair_048608",
+        "sermon_pair_048697"
+      ],
+      "occurrence_count": 16,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "age",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பிறகு கி.பி.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028833"
+          ]
+        },
+        {
+          "tamil": "எபேசு சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_028898"
+          ]
+        },
+        {
+          "tamil": "சிமிர்னா சபையின் காலம் 60-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029095"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_028833",
+        "sermon_pair_028898",
+        "sermon_pair_029095",
+        "sermon_pair_029406"
+      ],
+      "occurrence_count": 9,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Now",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_014122",
+            "sermon_pair_050635"
+          ]
+        },
+        {
+          "tamil": "இப்பொழுது நாம் ஜெபம் செய்வோம்:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_004934"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_014122",
+        "sermon_pair_050635",
+        "sermon_pair_004242",
+        "sermon_pair_004934"
+      ],
+      "occurrence_count": 17,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Yes",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நான், \"ஆம், ஐயா\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001438"
+          ]
+        },
+        {
+          "tamil": "அவர், \"ஆம், ஐயா\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001441"
+          ]
+        },
+        {
+          "tamil": "அவரும், \"ஆம்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001443"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001438",
+        "sermon_pair_001441",
+        "sermon_pair_001443",
+        "sermon_pair_001485"
+      ],
+      "occurrence_count": 16,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Let",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021725",
+            "sermon_pair_022652"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_034511"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_021725",
+        "sermon_pair_022652",
+        "sermon_pair_032118",
+        "sermon_pair_034511"
+      ],
+      "occurrence_count": 8,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "And",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆகவே இந்த டாக்டர் ரீட்ஹெட்…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_003651"
+          ]
+        },
+        {
+          "tamil": "இப்பொழுது அதற்கு அவர்கள்…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029894"
+          ]
+        },
+        {
+          "tamil": "அந்த அடிமை…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_030695"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_003651",
+        "sermon_pair_029894",
+        "sermon_pair_030695",
+        "sermon_pair_031820"
+      ],
+      "occurrence_count": 7,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Said",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017615"
+          ]
+        },
+        {
+          "tamil": "அவர், ''ஆம்\" என் றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_033723"
+          ]
+        },
+        {
+          "tamil": "அவர், \"இப்பொழுது கற்றுக்கொள்ளுங்கள்…\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050690"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017615",
+        "sermon_pair_033723",
+        "sermon_pair_050690",
+        "sermon_pair_073987"
+      ],
+      "occurrence_count": 5,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Yeah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவரோ, \"ஆம், போப்புதான்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017331"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர், \"ஆம்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017335"
+          ]
+        },
+        {
+          "tamil": "நான், \"சரி\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050718"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017331",
+        "sermon_pair_017335",
+        "sermon_pair_050718"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "That",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர், \"அது உண்மையே\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017615"
+          ]
+        },
+        {
+          "tamil": "அவள், \"அதுதான்\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_025852"
+          ]
+        },
+        {
+          "tamil": "\"ஆ, ஆ! அது தவறு'' என்ற னர்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073801"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017615",
+        "sermon_pair_025852",
+        "sermon_pair_073801"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "She",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அவள், \"அதுதான்\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_025852"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவள், \"ஓ, அர்த்தமற்றது\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_025856"
+          ]
+        },
+        {
+          "tamil": "அவள், \"ஆம். ஐயா\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074088"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_025852",
+        "sermon_pair_025856",
+        "sermon_pair_074088"
+      ],
+      "occurrence_count": 3,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "All",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "சரி:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017364"
+          ]
+        },
+        {
+          "tamil": "நான் \"சரி\" யென்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073987"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017364",
+        "sermon_pair_073987"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "Come",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "என்னைப் பின்பற்றி, வா 63-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_052176"
+          ]
+        },
+        {
+          "tamil": "இயேசு சொன்னார் - ''சரி, வா!'' என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_055850"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_052176",
+        "sermon_pair_055850"
+      ],
+      "occurrence_count": 2,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "let us pray",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபம் செய்வோமாக.",
+          "count": 2,
+          "source_ids": [
+            "sermon_pair_021725",
+            "sermon_pair_022652"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபம் செய்வோம்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_050246"
+          ]
+        },
+        {
+          "tamil": "நாம் ஜெபிப்போமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_062573"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001031",
+        "sermon_pair_001241",
+        "sermon_pair_010462",
+        "sermon_pair_010849"
+      ],
+      "occurrence_count": 128,
+      "context": "Multiple short approved Tamil forms; keep all, do not pick a winner",
+      "confidence": "medium",
+      "evidence_classification": "context_dependent_translations",
+      "auto_approved": false,
+      "invented": false
+    }
+  ]
+}

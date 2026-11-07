@@ -1,0 +1,259 @@
+{
+  "phase": "3B",
+  "mode": "preflight_config_only",
+  "generated_at": "2026-11-07T08:18:46.814Z",
+  "sermon_id": "54-0812",
+  "english_title": "Prayer Line",
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "prompt_version": "phase3b-output-fix-1",
+  "generateContent_called": false,
+  "paid_generation": false,
+  "gcs": false,
+  "context_cache": false,
+  "batch_api": false,
+  "database_writes": false,
+  "phase3_failure_context": {
+    "prompt": 29502,
+    "thinking": 11056,
+    "candidates_visible": 5314,
+    "complete_paragraphs": 8,
+    "max_output_was": 16384
+  },
+  "revised_configuration": {
+    "maxOutputTokens": 65536,
+    "model_documented_max_output": 65536,
+    "thinkingLevel": "HIGH",
+    "includeThoughts": false,
+    "compact_tamil_output": true,
+    "response_schema": "sermon_id,tamil_title,paragraphs[{label,tamil}]",
+    "english_in_user_request": true,
+    "english_echoed_in_model_output": false,
+    "preserve_knowledge_package": true,
+    "preserve_verified_bible_pairs": true,
+    "single_request": true,
+    "paragraph_count": 17,
+    "paragraph_labels": [
+      "header",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ]
+  },
+  "tokens": {
+    "system": 24903,
+    "user_compact": 4645,
+    "total_input": 29548,
+    "english_source": 4405,
+    "estimated_visible_tamil_json": 6888,
+    "thinking_reserve_high": 24000,
+    "safety_margin": 2048,
+    "required_output_budget": 32936,
+    "maxOutputTokens": 65536
+  },
+  "output_budget_check": {
+    "maxOutputTokens": 65536,
+    "model_documented_max_output": 65536,
+    "estimated_visible_output_tokens": 6888,
+    "thinking_reserve_tokens": 24000,
+    "safety_margin_tokens": 2048,
+    "required_output_budget": 32936,
+    "within_model_limit": true,
+    "budget_sufficient": true,
+    "generate_allowed": true,
+    "blockers": []
+  },
+  "cost_estimate": {
+    "usd_inr": 84,
+    "gst_rate": 0.18,
+    "likely_inr_gst": 27.2,
+    "high_thinking_reserve_inr_gst": 42.6,
+    "maximum_potential_inr_gst": 83.81,
+    "maximum_potential_usd": 0.845528,
+    "note": "Maximum potential assumes the full maxOutputTokens ceiling is billed as output (thinking + candidates share the limit). No generateContent in this phase."
+  },
+  "knowledge": {
+    "source": "knowledge/prompt_package.json",
+    "counts": {
+      "terms": 120,
+      "verified_terminology": 93,
+      "context_dependent_terminology": 27,
+      "biblical_names": 50,
+      "doctrinal_glossary": 27,
+      "repeated_phrases": 19,
+      "approved_examples": 36
+    },
+    "bible_pairs_injected": 2,
+    "bible_refs": [
+      "John 5:14",
+      "Mark 16:17"
+    ]
+  },
+  "hashes": {
+    "source_sermon": "31b7a9115e94fdc7bfcfe1e7e7d46a089f30af1b8cd0fdf3147eee26abf4ecb2",
+    "knowledge_package": "13f5017c979c300c0591d895e03d32c9ce741aaa6e45a28d4d2d58c054fdeb35",
+    "system_prompt": "c28b68a20b5193a32442f547d4985098d5d6ecc2b654b2f45684bed832cda8dc"
+  },
+  "input_verification": {
+    "all_ok": true,
+    "checks": [
+      {
+        "name": "english_sqlite_exists",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\db_source\\en_sermons_vogr.sqlite"
+      },
+      {
+        "name": "sermon_exists",
+        "ok": true,
+        "detail": "Prayer Line"
+      },
+      {
+        "name": "paragraphs_retrieved",
+        "ok": true,
+        "detail": {
+          "count": 17,
+          "labels": [
+            "header",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ]
+        }
+      },
+      {
+        "name": "paragraphs_ordered_by_id",
+        "ok": true,
+        "detail": {
+          "first_id": 16975,
+          "last_id": 16991
+        }
+      },
+      {
+        "name": "paragraphs_nonempty",
+        "ok": true,
+        "detail": "all paragraph text present"
+      },
+      {
+        "name": "knowledge_style_guide",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\translation_style_guide.md"
+      },
+      {
+        "name": "knowledge_terminology",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\terminology.json"
+      },
+      {
+        "name": "knowledge_biblical_names",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\biblical_names.json"
+      },
+      {
+        "name": "knowledge_doctrinal_glossary",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\doctrinal_glossary.json"
+      },
+      {
+        "name": "knowledge_repeated_phrases",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\repeated_phrases.json"
+      },
+      {
+        "name": "knowledge_approved_examples",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\approved_examples.json"
+      },
+      {
+        "name": "knowledge_prompt_package",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\prompt_package.json"
+      },
+      {
+        "name": "knowledge_bible_fts",
+        "ok": true,
+        "detail": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\bible_fts.sqlite"
+      },
+      {
+        "name": "approved_examples_exactly_36",
+        "ok": true,
+        "detail": {
+          "count": 36
+        }
+      },
+      {
+        "name": "prompt_package_examples_exactly_36",
+        "ok": true,
+        "detail": {
+          "count": 36,
+          "terms": 120,
+          "names": 50,
+          "doctrinal": 27,
+          "phrases": 19
+        }
+      },
+      {
+        "name": "bible_fts_schema",
+        "ok": true,
+        "detail": [
+          "id",
+          "idx",
+          "book",
+          "chapter",
+          "verse",
+          "book_en",
+          "book_ta",
+          "ref",
+          "english",
+          "tamil"
+        ]
+      },
+      {
+        "name": "bible_fts_31102",
+        "ok": true,
+        "detail": {
+          "count": 31102
+        }
+      },
+      {
+        "name": "bible_fts_query_valid",
+        "ok": true,
+        "detail": "Genesis 1:1"
+      },
+      {
+        "name": "terminology_count",
+        "ok": true,
+        "detail": {
+          "count": 120
+        }
+      }
+    ]
+  },
+  "approval_required_for": "generateContent / --phase3-benchmark with Phase 3B config",
+  "stop": true
+}

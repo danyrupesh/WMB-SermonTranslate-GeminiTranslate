@@ -1,0 +1,327 @@
+{
+  "phase": "3C.6",
+  "sermon_id": "47-1207",
+  "title": "Experiences",
+  "mode": "preflight_only",
+  "paid_generation": false,
+  "messages_create_called": false,
+  "gemini_called": false,
+  "chunk_2_executed": false,
+  "model": {
+    "requested_id": "claude-sonnet-5-5",
+    "verified_from": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "models_api": {
+      "type": "model",
+      "id": "claude-sonnet-5-5",
+      "display_name": "Claude Sonnet 5.5",
+      "created_at": "2026-09-28T00:00:00Z",
+      "line": "sonnet",
+      "max_input_tokens": 1000000,
+      "max_tokens": 128000,
+      "capabilities": {
+        "batch": {
+          "supported": true
+        },
+        "citations": {
+          "supported": true
+        },
+        "code_execution": {
+          "supported": true
+        },
+        "context_management": {
+          "supported": true,
+          "clear_tool_uses_20250919": {
+            "supported": true
+          },
+          "clear_thinking_20251015": {
+            "supported": true
+          },
+          "compact_20260112": {
+            "supported": true
+          }
+        },
+        "effort": {
+          "supported": true,
+          "low": {
+            "supported": true
+          },
+          "medium": {
+            "supported": true
+          },
+          "high": {
+            "supported": true
+          },
+          "xhigh": {
+            "supported": true
+          },
+          "max": {
+            "supported": true
+          }
+        },
+        "image_input": {
+          "supported": true
+        },
+        "pdf_input": {
+          "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
+        "structured_outputs": {
+          "supported": true
+        },
+        "thinking": {
+          "supported": true,
+          "types": {
+            "enabled": {
+              "supported": false
+            },
+            "adaptive": {
+              "supported": true
+            },
+            "disabled": {
+              "supported": false
+            },
+            "between_tools": {
+              "supported": true
+            }
+          }
+        }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
+    },
+    "context_window": 1000000,
+    "max_output_tokens_sync": 128000,
+    "thinking": "adaptive (default on); effort high; thinking.type disabled is not accepted on this model"
+  },
+  "source_preservation": {
+    "system_copied_from": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_1_header_1_50-system.txt",
+    "payload_copied_from": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c3-chunk_1_header_1_50-payload.json",
+    "english_unchanged": true,
+    "knowledge_unchanged": true,
+    "bible_refs": [
+      "John 5:6",
+      "John 5:7",
+      "John 5:8",
+      "John 11:39"
+    ],
+    "bible_exactly_four_required": true,
+    "gemini_baselines_untouched": true,
+    "source_of_truth_untouched": true
+  },
+  "coverage": {
+    "expected_count": 51,
+    "actual_count": 51,
+    "missing": [],
+    "duplicate": [],
+    "unknown": [],
+    "every_record_exactly_once": true
+  },
+  "hashes": {
+    "system_prompt": "4d219d87c5b15dc46ecf291925138933fa5d8f3d7ec266955b9bc04229b467f4",
+    "payload_file": "2ca1cfdce80be37b747d3c66d4f40c5b5f8d581fca0a91362088d9f4faff19b0",
+    "payload_json_stringify": "3d0cde452b1211fc027338a4339b3de57e3360226cc5b06f91ee85a6e5bc5f57",
+    "user_prompt": "497f62ce00aa72fc135a1ac390f0d59f2739351b072ed07954fecc725b66dc35",
+    "source_3c3_system": "4d219d87c5b15dc46ecf291925138933fa5d8f3d7ec266955b9bc04229b467f4",
+    "source_3c3_payload": "2ca1cfdce80be37b747d3c66d4f40c5b5f8d581fca0a91362088d9f4faff19b0",
+    "system_matches_3c3": true,
+    "payload_matches_3c3": true
+  },
+  "token_counts": {
+    "method": "client.messages.countTokens (POST /v1/messages/count_tokens)",
+    "documented_free": true,
+    "source": "https://platform.claude.com/docs/en/build-with-claude/token-counting",
+    "gemini_chunk1_input_not_reused": 40322,
+    "full_request": {
+      "ok": false,
+      "label": "full_chunk1_request",
+      "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzCCK5H77PhxFceWJa\"}",
+      "status": 400
+    },
+    "system_only": {
+      "ok": false,
+      "label": "system_only",
+      "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzDd9LtAXV1o57m8jw\"}",
+      "status": 400
+    },
+    "user_only": {
+      "ok": false,
+      "label": "user_only",
+      "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzEwWr7fdL3UKMiS4Z\"}",
+      "status": 400
+    },
+    "english_paragraphs_only": {
+      "ok": false,
+      "label": "english_paragraphs_only",
+      "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzGAguTnqGBhbRHtwA\"}",
+      "status": 400
+    }
+  },
+  "output_estimates": {
+    "tamil_out_ratio": 1.35,
+    "tamil_ratio_note": "English tokens counted with Claude tokenizer, then ×1.35 for Tamil body plus JSON overhead. Not a Gemini token reuse.",
+    "estimated_tamil_body": null,
+    "compact_json_overhead": 692,
+    "estimated_visible_tamil_json": null,
+    "thinking_not_returned_by_count_tokens": true
+  },
+  "output_budget": {
+    "context_window": 1000000,
+    "model_max_output_tokens": 128000,
+    "planned_max_tokens": 128000,
+    "estimated_visible_tamil_json": null,
+    "thinking_reserve_adaptive_high": 24000,
+    "thinking_high_assumption": 48000,
+    "safety_margin": 2048,
+    "required_output_budget_likely": null,
+    "required_output_budget_high_thinking": null,
+    "fits_likely": null,
+    "fits_high_thinking": null,
+    "budget_verified": false,
+    "json_schema": "output_config.format.type=json_schema additionalProperties=false",
+    "temperature_omitted": true,
+    "temperature_omitted_reason": "claude-sonnet-5-5 returns 400 if temperature/top_p/top_k are set"
+  },
+  "cost_estimate": {
+    "pricing_source": "https://platform.claude.com/docs/en/about-claude/pricing retrieved 2026-11-07",
+    "model": "claude-sonnet-5-5",
+    "input_usd_per_mtok": 2,
+    "output_usd_per_mtok": 10,
+    "usd_inr": 84,
+    "usd_inr_note": "estimate only",
+    "gst_rate": 0.18,
+    "cache_not_used": true,
+    "batch_not_used": true,
+    "thinking_billed_as": "output tokens (usage.output_tokens includes thinking; output_tokens_details.thinking_tokens)",
+    "expected_visible_only": null,
+    "expected_visible_plus_thinking_reserve": null,
+    "expected_visible_plus_high_thinking": null,
+    "conservative_maximum_at_planned_max_tokens": {
+      "input_tokens": 0,
+      "output_tokens": 128000,
+      "input_usd": 0,
+      "output_usd": 1.28,
+      "total_usd": 1.28,
+      "total_inr_incl_gst": 126.87
+    },
+    "conservative_maximum_note": "Input tokens unknown; conservative maximum uses 0 input + full max_tokens output. Real input cost will be additional once count_tokens succeeds."
+  },
+  "request_preview": {
+    "model": "claude-sonnet-5-5",
+    "max_tokens": 128000,
+    "thinking": {
+      "type": "adaptive"
+    },
+    "output_config": {
+      "effort": "high",
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sermon_id",
+            "tamil_title",
+            "paragraphs"
+          ],
+          "properties": {
+            "sermon_id": {
+              "type": "string"
+            },
+            "tamil_title": {
+              "type": "string"
+            },
+            "paragraphs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "tamil"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string"
+                  },
+                  "tamil": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "temperature": null,
+    "cache": false,
+    "batch": false,
+    "user_intro": "Translate these sermon paragraphs into Tamil. Keep every label in the given order. Return compact JSON only: {\"sermon_id\",\"tamil_title\",\"paragraphs\":[{\"label\",\"tamil\"}]}. Do not repeat English paragraph text in the response. Do not summarize, omit, or add explanations. Preserve cadence, repetitions, and editor gaps like ...?... .",
+    "system_chars": 75470,
+    "user_chars": 59746
+  },
+  "logging_design": {
+    "persist_complete_provider_response": true,
+    "omit_secrets": true,
+    "fields": [
+      "id (request id)",
+      "model",
+      "stop_reason",
+      "usage.input_tokens",
+      "usage.output_tokens",
+      "usage.cache_creation_input_tokens",
+      "usage.cache_read_input_tokens",
+      "usage.output_tokens_details.thinking_tokens",
+      "latency_ms",
+      "estimated cost",
+      "json validation / classifyResponse kinds: empty_response, refusal, incomplete_json, output_truncation, complete_json"
+    ],
+    "not_called_this_phase": true
+  },
+  "implementation": {
+    "adapter": "scripts/providers/claude_messages.js",
+    "sdk": "@anthropic-ai/sdk",
+    "api_key_source": "process.env.ANTHROPIC_API_KEY",
+    "gemini_adapter_modified": false
+  },
+  "gaps_and_assumptions": [
+    "count_tokens returns input tokens only; Tamil JSON output tokens are estimated (English Claude tokens × 1.35 + JSON overhead).",
+    "Adaptive thinking volume is unknown until a paid call; 24,000 is a Gemini-era HIGH observation used as a reserve, 48,000 is a more conservative assumption. Both are billed as output if used.",
+    "count_tokens is documented as an estimate; billed input on messages.create can differ slightly.",
+    "USD/INR = 84 is an estimate.",
+    "Claude has not yet been asked to translate this sermon; PROHIBITED_CONTENT on Gemini does not prove Claude will accept the same English.",
+    "createMessage is implemented but was not invoked.",
+    "Official docs say token counting is free; this account received HTTP 400 invalid_request_error that the credit balance is too low. No Gemini token count is substituted."
+  ],
+  "blockers": [
+    "Official count_tokens failed for the complete Chunk 1 request: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzCCK5H77PhxFceWJa\"}",
+    "Anthropic account credit balance is too low. count_tokens (documented free) and messages.create are both rejected until credits are added. A paid Chunk 1 call cannot succeed in this state.",
+    "Expected Tamil output tokens are unverified because official count_tokens did not return English/input counts."
+  ],
+  "answers": {
+    "claude_integration_ready": false,
+    "verified_model_id": "claude-sonnet-5-5",
+    "actual_chunk1_input_tokens": null,
+    "expected_output_tokens_visible": null,
+    "expected_output_tokens_with_thinking_reserve": null,
+    "maximum_expected_cost_inr_incl_gst": 126.87,
+    "output_budget_sufficient": false,
+    "fifty_one_records_exactly_once": true,
+    "remaining_technical_blockers": [
+      "Official count_tokens failed for the complete Chunk 1 request: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CgoVzCCK5H77PhxFceWJa\"}",
+      "Anthropic account credit balance is too low. count_tokens (documented free) and messages.create are both rejected until credits are added. A paid Chunk 1 call cannot succeed in this state.",
+      "Expected Tamil output tokens are unverified because official count_tokens did not return English/input counts."
+    ],
+    "single_paid_chunk1_technically_safe_to_attempt": false,
+    "approval": "STOP. Do not call messages.create until a separate explicit human approval."
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "phase": "3C",
+  "mode": "two_chunk_execution_preflight",
+  "generated_at": "2026-11-07T08:27:42.638Z",
+  "sermon_id": "47-1207",
+  "english_title": "Experiences",
+  "sermon_meta": {
+    "date": "1947-12-07",
+    "duration": "137 min",
+    "location": "Phoenix AZ",
+    "paragraphs_loaded": 98
+  },
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "prompt_version": "phase3c-two-chunk-preflight-1",
+  "generateContent_called": false,
+  "paid_generation_requests": 0,
+  "countTokens_calls": 8,
+  "countTokens_is_generation": false,
+  "gcs": false,
+  "context_cache": false,
+  "batch_api": false,
+  "database_writes": false,
+  "source_of_truth_modified": false,
+  "automatic_retries": false,
+  "configuration": {
+    "maxOutputTokens": 65536,
+    "thinkingLevel": "HIGH",
+    "includeThoughts": false,
+    "compact_tamil_output": true,
+    "preserve_knowledge_package": true,
+    "preserve_verified_bible_pairs_per_chunk": true,
+    "quality_settings_reduced": false
+  },
+  "paragraph_coverage": {
+    "expected_count": 98,
+    "expected_labels": [
+      "header",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+    ],
+    "assigned": [
+      "header",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+    ],
+    "missing_from_chunks": [],
+    "duplicated_across_chunks": [],
+    "unknown_in_chunks": [],
+    "every_paragraph_exactly_once": true
+  },
+  "assembly_strategy": {
+    "merge_order": "chunk_1_then_chunk_2_by_original_label_order",
+    "output_schema_per_request": {
+      "type": "object",
+      "required": [
+        "sermon_id",
+        "tamil_title",
+        "paragraphs"
+      ],
+      "properties": {
+        "sermon_id": {
+          "type": "string"
+        },
+        "tamil_title": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "tamil"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "tamil": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "post_process": "For each returned {label,tamil}, attach english from local source paragraphs by label. Build final document with all 98 paragraphs in original order. Write preview HTML. Do not write source_of_truth.",
+    "tamil_title": "Take tamil_title from chunk 1 response if present; otherwise derive from header tamil.",
+    "no_automatic_retry": true,
+    "separate_approval_required_per_chunk": true
+  },
+  "chunks": [
+    {
+      "chunk_index": 1,
+      "name": "chunk_1_header_1_50",
+      "paragraph_count": 51,
+      "labels": [
+        "header",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "first_label": "header",
+      "last_label": "50",
+      "bible_pairs": [
+        {
+          "ref": "Exodus 29:18",
+          "match_method": "fts_and_words",
+          "matched_query": "Will thou be made whole?"
+        },
+        {
+          "ref": "Matthew 15:28",
+          "match_method": "fts_and_words",
+          "matched_query": "Will thou be made whole?"
+        },
+        {
+          "ref": "John 5:6",
+          "match_method": "fts_and_words",
+          "matched_query": "Will thou be made whole?"
+        },
+        {
+          "ref": "John 5:14",
+          "match_method": "fts_and_words",
+          "matched_query": "Will thou be made whole?"
+        },
+        {
+          "ref": "Mark 2:9",
+          "match_method": "fts_and_words",
+          "matched_query": "Take up your bed and walk."
+        },
+        {
+          "ref": "John 5:8",
+          "match_method": "fts_and_words",
+          "matched_query": "Take up your bed and walk."
+        },
+        {
+          "ref": "John 5:11",
+          "match_method": "fts_and_words",
+          "matched_query": "Take up your bed and walk."
+        },
+        {
+          "ref": "John 5:12",
+          "match_method": "fts_and_words",
+          "matched_query": "Take up your bed and walk."
+        },
+        {
+          "ref": "John 11:39",
+          "match_method": "fts_phrase_prefix",
+          "matched_query": "Take ye away the stone."
+        }
+      ],
+      "bible_pair_count": 9,
+      "tokens": {
+        "system_prompt": 25493,
+        "user_prompt": 15184,
+        "total_input": 40677,
+        "english_source": 14698,
+        "estimated_tamil_body": 19843,
+        "estimated_visible_tamil_json": 20535,
+        "thinking_reserve_high": 24000,
+        "safety_margin": 2048,
+        "required_output_budget": 46583,
+        "maxOutputTokens": 65536
+      },
+      "output_budget_check": {
+        "maxOutputTokens": 65536,
+        "model_documented_max_output": 65536,
+        "estimated_visible_output_tokens": 20535,
+        "thinking_reserve_tokens": 24000,
+        "safety_margin_tokens": 2048,
+        "required_output_budget": 46583,
+        "within_model_limit": true,
+        "budget_sufficient": true,
+        "generate_allowed": true,
+        "blockers": []
+      },
+      "safe_to_execute_independently": true,
+      "cost_estimate": {
+        "likely_usd": 0.460446,
+        "likely_inr_gst": 45.64,
+        "high_reserve_usd": 0.615774,
+        "high_reserve_inr_gst": 61.04,
+        "maximum_potential_usd": 0.867786,
+        "maximum_potential_inr_gst": 86.01
+      },
+      "artifacts": {
+        "payloadPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c-chunk_1_header_1_50-payload.json",
+        "systemPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c-chunk_1_header_1_50-system.txt"
+      },
+      "request_manifest": {
+        "model": "gemini-3.1-pro-preview",
+        "api_version": "v1beta",
+        "config": {
+          "systemInstruction": "(Phase 3B distilled prompt_package + chunk-relevant verified Bible pairs)",
+          "temperature": 0.1,
+          "responseMimeType": "application/json",
+          "responseSchema": {
+            "type": "object",
+            "required": [
+              "sermon_id",
+              "tamil_title",
+              "paragraphs"
+            ],
+            "properties": {
+              "sermon_id": {
+                "type": "string"
+              },
+              "tamil_title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "tamil"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tamil": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "maxOutputTokens": 65536,
+          "thinkingConfig": {
+            "thinkingLevel": "HIGH",
+            "includeThoughts": false
+          }
+        },
+        "user_intro_preview": "Translate these sermon paragraphs into Tamil. Keep every label in the given order. Return compact JSON only: {\"sermon_id\",\"tamil_title\",\"paragraphs\":[{\"label\",\"tamil\"}]}. Do not repeat English paragraph text in the response. Do not summariz…",
+        "payload_paragraph_count": 51,
+        "payload_labels": [
+          "header",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50"
+        ]
+      },
+      "hashes": {
+        "system_prompt": "2e01b8386f2227e11e4b9e329ea9b500043e2f74d9f654a9540ea625b6d9a249",
+        "user_prompt": "497f62ce00aa72fc135a1ac390f0d59f2739351b072ed07954fecc725b66dc35",
+        "payload": "3d0cde452b1211fc027338a4339b3de57e3360226cc5b06f91ee85a6e5bc5f57"
+      }
+    },
+    {
+      "chunk_index": 2,
+      "name": "chunk_2_51_97",
+      "paragraph_count": 47,
+      "labels": [
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97"
+      ],
+      "first_label": "51",
+      "last_label": "97",
+      "bible_pairs": [
+        {
+          "ref": "Acts 8:37",
+          "match_method": "fts_and_words",
+          "matched_query": "I believe that Jesus, with all my heart, and I believe Jesus sent you here."
+        },
+        {
+          "ref": "Genesis 29:35",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "Leviticus 19:24",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "1 Chronicles 16:4",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "1 Chronicles 23:30",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "1 Chronicles 25:3",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "2 Chronicles 7:6",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "2 Chronicles 20:19",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "2 Chronicles 20:21",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        },
+        {
+          "ref": "Ezra 3:10",
+          "match_method": "normalized_english_like",
+          "matched_query": "Praise the Lord …?…"
+        }
+      ],
+      "bible_pair_count": 10,
+      "tokens": {
+        "system_prompt": 25911,
+        "user_prompt": 15296,
+        "total_input": 41207,
+        "english_source": 14828,
+        "estimated_tamil_body": 20018,
+        "estimated_visible_tamil_json": 20662,
+        "thinking_reserve_high": 24000,
+        "safety_margin": 2048,
+        "required_output_budget": 46710,
+        "maxOutputTokens": 65536
+      },
+      "output_budget_check": {
+        "maxOutputTokens": 65536,
+        "model_documented_max_output": 65536,
+        "estimated_visible_output_tokens": 20662,
+        "thinking_reserve_tokens": 24000,
+        "safety_margin_tokens": 2048,
+        "required_output_budget": 46710,
+        "within_model_limit": true,
+        "budget_sufficient": true,
+        "generate_allowed": true,
+        "blockers": []
+      },
+      "safe_to_execute_independently": true,
+      "cost_estimate": {
+        "likely_usd": 0.46303,
+        "likely_inr_gst": 45.9,
+        "high_reserve_usd": 0.618358,
+        "high_reserve_inr_gst": 61.29,
+        "maximum_potential_usd": 0.868846,
+        "maximum_potential_inr_gst": 86.12
+      },
+      "artifacts": {
+        "payloadPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c-chunk_2_51_97-payload.json",
+        "systemPath": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\47-1207\\phase3_benchmark\\phase3c-chunk_2_51_97-system.txt"
+      },
+      "request_manifest": {
+        "model": "gemini-3.1-pro-preview",
+        "api_version": "v1beta",
+        "config": {
+          "systemInstruction": "(Phase 3B distilled prompt_package + chunk-relevant verified Bible pairs)",
+          "temperature": 0.1,
+          "responseMimeType": "application/json",
+          "responseSchema": {
+            "type": "object",
+            "required": [
+              "sermon_id",
+              "tamil_title",
+              "paragraphs"
+            ],
+            "properties": {
+              "sermon_id": {
+                "type": "string"
+              },
+              "tamil_title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "tamil"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tamil": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "maxOutputTokens": 65536,
+          "thinkingConfig": {
+            "thinkingLevel": "HIGH",
+            "includeThoughts": false
+          }
+        },
+        "user_intro_preview": "Translate these sermon paragraphs into Tamil. Keep every label in the given order. Return compact JSON only: {\"sermon_id\",\"tamil_title\",\"paragraphs\":[{\"label\",\"tamil\"}]}. Do not repeat English paragraph text in the response. Do not summariz…",
+        "payload_paragraph_count": 47,
+        "payload_labels": [
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97"
+        ]
+      },
+      "hashes": {
+        "system_prompt": "ccdf09da1df48cc0d722a46a4c570a06bbe54bb43d3f306fe910a9eb506338b4",
+        "user_prompt": "1faf5a45cbdb32a413551873d45d6752f59dc518843ff2ad91b6dbda1ef531cf",
+        "payload": "e9c19fb9d529feaa29422b05cca53e18e005be27771ed146bc93c04f328ea4f3"
+      }
+    }
+  ],
+  "totals": {
+    "system_prompt_tokens_sum": 51404,
+    "user_prompt_tokens_sum": 30480,
+    "total_input_tokens_sum": 81884,
+    "estimated_visible_tamil_json_sum": 41197,
+    "note": "System prompt is repeated once per chunk request (full knowledge each time).",
+    "cost": {
+      "usd_inr": 84,
+      "gst_rate": 0.18,
+      "likely_inr_gst": 91.53,
+      "high_reserve_inr_gst": 122.33,
+      "maximum_potential_inr_gst": 172.13,
+      "likely_usd": 0.923476,
+      "high_reserve_usd": 1.234132,
+      "maximum_potential_usd": 1.736632
+    }
+  },
+  "both_chunks_safe_to_execute_independently": true,
+  "execution_gate": {
+    "chunk_1_requires_separate_explicit_approval": true,
+    "chunk_2_requires_separate_explicit_approval_after_chunk_1_review": true,
+    "do_not_start_either_chunk_without_approval": true
+  },
+  "confirmation": {
+    "zero_paid_generation_requests": true,
+    "generateContent_called": false,
+    "translation_performed": false,
+    "gcs_cache_batch": false,
+    "database_writes": false,
+    "baseline_not_overwritten": true
+  },
+  "hashes": {
+    "source_sermon": "ed434bd44653c254b52a919721bea4df118c705bb5580cd3dcd130ef9c1ea67f",
+    "knowledge_package": "d8c48c91a9abcdcf52e2f0e40eb0cc0d58e6e8467239e5505d1e248f162faf8f"
+  },
+  "input_verification": {
+    "all_ok": true
+  },
+  "stop": true,
+  "approval_required_for": "Chunk 1 generateContent only after explicit approval; then Chunk 2 after review"
+}

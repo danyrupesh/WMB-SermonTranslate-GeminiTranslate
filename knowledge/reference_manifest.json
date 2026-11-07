@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "dry_run": true,
+  "budget": {
+    "available_inr": 2500,
+    "ceiling_inr": 2000,
+    "reserve_inr": 500,
+    "phase1_1_api_spend": 0
+  },
+  "sources": {
+    "sermon_parallel": "E:\\Freelance\\MessageDBApp\\AI_Translate\\dataset\\source_of_truth\\parallel_dataset.json",
+    "bible_parallel": "E:\\Freelance\\MessageDBApp\\AI_Translate\\dataset\\source_of_truth\\bible_parallel_dataset.json",
+    "immutable": true
+  },
+  "counts": {
+    "sermon_records": 75474,
+    "bible_records": 31102,
+    "terminology": 120,
+    "biblical_names": 50,
+    "doctrinal_glossary": 27,
+    "repeated_phrases": 19,
+    "compact_examples": 36,
+    "library_examples": 630
+  },
+  "bible_fts": {
+    "path": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\knowledge\\bible_fts.sqlite",
+    "rows": 31102,
+    "retrieval_policy": "max_5_to_10_pairs",
+    "supports": [
+      "exact_or_partial_english_quotation via FTS MATCH",
+      "book + chapter filter on verses.book_en / verses.chapter",
+      "ref field e.g. \"John 3:16\""
+    ],
+    "sample_sql": "-- Exact-ish quotation / partial verse:\nSELECT v.id, v.ref, v.english, v.tamil\nFROM verses_fts f\nJOIN verses v ON v.rowid = f.rowid\nWHERE verses_fts MATCH ?\nLIMIT 10;\n\n-- Book + chapter reference (e.g. John 3):\nSELECT id, ref, english, tamil FROM verses\nWHERE book_en LIKE 'John%' AND chapter = 3\nORDER BY verse\nLIMIT 10;",
+    "never_dump_full_bible_into_prompt_or_cache": true
+  },
+  "shared_prompt_token_estimate": 22821,
+  "target_range": [
+    20000,
+    40000
+  ],
+  "gemini_count_tokens_command": "cd /d E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini && set APPROVE_TOKEN_COUNT=1&& node phase1_inspect_distill.js",
+  "gemini_count_tokens_command_note": "Phase 1.1 did not call Gemini. To count the distilled prompt package later, run a dedicated countTokens script against knowledge/*.json (excluding bible_fts.sqlite and library/). Suggested: set APPROVE_TOKEN_COUNT=1&& node scripts/count_prompt_package_tokens.js (create when approved).",
+  "shared_prompt_pretty_file_tokens": 33258,
+  "prompt_package": "knowledge/prompt_package.json",
+  "within_target": true
+}

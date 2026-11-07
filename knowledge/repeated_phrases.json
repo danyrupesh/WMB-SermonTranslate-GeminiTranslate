@@ -1,0 +1,535 @@
+{
+  "generatedAt": "2026-11-06T16:54:56.796Z",
+  "phase": "1.1",
+  "auto_approved": false,
+  "entries": [
+    {
+      "english": "can't",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு நான், \"உங்களால் அதைக் காணமுடியவில்லையா?\" என்று கேட்டேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_016894"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவனோ, \"என்னால் அதை எண்ணமுடியாது\" என்றான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017786"
+          ]
+        },
+        {
+          "tamil": "\"எங்களால் சொல்லமுடியாது\" என்றனர்.--மத் 21:",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074245"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016894",
+        "sermon_pair_017786",
+        "sermon_pair_074245"
+      ],
+      "occurrence_count": 3,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "pull curtain",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"அந்தத் தொங்கு திரையை இழுத்து விடுங்கள்!\" என்று அந்த அம்மாள் கூறினார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074167"
+          ]
+        },
+        {
+          "tamil": "அவர்களோ \"அந்தத் தொங்கு திரையை இழுத்து விடுங்கள்!\" என்று கூறினார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074169"
+          ]
+        },
+        {
+          "tamil": "ஆகவே அந்த அம்மாள், \"அந்த தொங்கு திரையை இழுத்து விடுங்கள்!\" என்று கூறினார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074173"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_074167",
+        "sermon_pair_074169",
+        "sermon_pair_074173"
+      ],
+      "occurrence_count": 3,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "hebrew children",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "\"எபிரெய புத்திரர்களே, நீங்கள் அவரைக் குறித்து என்ன நினைக்கிறீர்கள்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001479"
+          ]
+        },
+        {
+          "tamil": "\"எபிரெய பிள்ளைகளே, நீங்கள் அவரைக் குறித்து என்ன நினைக்கிறீர்கள்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001502"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001479",
+        "sermon_pair_001502"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "whether holy ghost",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவேயில்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_007519"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர்கள், \"பரிசுத்த ஆவி உண்டென்பதை நாங்கள் கேள்விப்படவே இல்லை\" என்றார்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015282"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_007519",
+        "sermon_pair_015282"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "want",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, \"நீங்கள் வேண்டுமானால் போங்கள்\" என்றான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013242"
+          ]
+        },
+        {
+          "tamil": "நான் அதற்கு, \"நான் அவரைக் காண விரும்புகிறேன்\" என்றேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_029294"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_013242",
+        "sermon_pair_029294"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "good thing nazareth",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அதற்கு நாத்தான்வேல், \"நாசரேத்திலிருந்து யாதொரு நன்மை உண்டாகக் கூடுமா?\" என்று கேட்டான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_015351"
+          ]
+        },
+        {
+          "tamil": "அதற்கு இவன், \"நாசரேத்திலிருந்து யாதொரு நன்மை உண்டாகக்கூடுமா?\" என்று கேட்டான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_018731"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_015351",
+        "sermon_pair_018731"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "man",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது அவர், \"அது அவர்தான்\" என்றார். பார்த்தீர்களா? அதன்பின்னர் அந்த மனிதன்…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_016906"
+          ]
+        },
+        {
+          "tamil": "அவள், \"இது எப்படியாகும்? புருஷனை அறியேனே\" என்றாள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073406"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_016906",
+        "sermon_pair_073406"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "bow heads prayer",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "நாம் ஜெபத்திற்காக நம்முடைய தலைகளைத் தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_022687"
+          ]
+        },
+        {
+          "tamil": "நாம் நம்முடைய தலைகளை இப்பொழுது ஜெபத்திற்காக தாழ்த்துவோமாக.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_049832"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_022687",
+        "sermon_pair_049832"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "mean brother branham",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அவர், \"சகோ. பிரான்ஹாமே, நீங்கள் என்ன சொல்லுகிறீர்கள்?\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_073322"
+          ]
+        },
+        {
+          "tamil": "\"உண்மையாகவே அவ்விதம் கூறுகிறீர்களோ, சகோதரர் பிரான்ஹாமே?\" என்று நீங்கள் கேட்கிறீர்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074383"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_073322",
+        "sermon_pair_074383"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "messiah",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "அப்பொழுது அவர்களோ, \"இல்லை, நாங்கள் மேசியாவைக் காண் வந்திருக்கிறோம்\" என்றனர்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017407"
+          ]
+        },
+        {
+          "tamil": "அதற்கு அவர், \"அவர் மேசியாவைக் குறித்துப் பேசிக் கொண்டிருந்தார்\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017655"
+          ]
+        },
+        {
+          "tamil": "அப்பொழுது நான், \"அப்படியானால் மேசியா பிறப்பாரா?\" என்று கேட்டேன்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_017656"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_017407",
+        "sermon_pair_017655",
+        "sermon_pair_017656",
+        "sermon_pair_017697"
+      ],
+      "occurrence_count": 4,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "blood",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006513"
+          ]
+        },
+        {
+          "tamil": "[சகோதரன் பிரான்ஹாம், இரத்தம் சொட்டிக் கொண்டிருக்கிறது என்று மெளனமாக பாடுகிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_013009"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006513",
+        "sermon_pair_013009"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "holy ghost",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "பரிசுத்த ஆவியின் பேரில் கேள்விகளும் பதில்களும் 59-",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_024385"
+          ]
+        },
+        {
+          "tamil": "பரிசுத்த ஆவியைத் தவிர வேறொன்றும் விடப்பட்டிருக்கவில்லை.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_071420"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_024385",
+        "sermon_pair_071420"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "bride",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது உண்மையான மணவாட்டி உண்டு என்பதை நீங்கள் நினைவில் கொள்ளுங்கள்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048691"
+          ]
+        },
+        {
+          "tamil": "அங்கே மணவாட்டியோடு இருக்கப் போகிறது.......",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_074255"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048691",
+        "sermon_pair_074255"
+      ],
+      "occurrence_count": 2,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "adam",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஆதாமே, அவரைக் குறித்து நீ என்ன நினைக்கிறாய்?\"",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_001473"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_001473"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "sanctification",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இரத்தத்தின் மூலமாக பரிசுத்தமாக்கப்படுதல், எபிரேயர் 13:12, மற்றும்",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_006513"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_006513"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "message",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "[ஒரு சகோதரன் ஒரு செய்தியைக் கொடுக்கிறார்—ஆசி.]",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_037837"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_037837"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "antichrist",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, இப்பொழுது அவன் ஆரம்பத்தில் \"அந்திக்கிறிஸ்துவின்\" ஆவியாயிருந்தான்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_048800"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_048800"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "rapture",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "இப்பொழுது, எடுத்துக்கொள்ளப்படுதல் நிகழ்ந்த பின்பு…",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_051530"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_051530"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    },
+    {
+      "english": "elohim",
+      "tamil_approved_equivalents": [
+        {
+          "tamil": "ஏலோஹீம், அவர், \"உன் மனைவி சாராள் எங்கே?\" என்றார்.",
+          "count": 1,
+          "source_ids": [
+            "sermon_pair_061020"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sermon_pair_061020"
+      ],
+      "occurrence_count": 1,
+      "context": "Short English unit with phrase-length Tamil; not a single-term gloss",
+      "confidence": "medium",
+      "evidence_classification": "phrase_level_examples",
+      "auto_approved": false,
+      "invented": false
+    }
+  ]
+}

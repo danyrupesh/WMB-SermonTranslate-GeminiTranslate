@@ -1,0 +1,785 @@
+{
+  "sermon_id": "54-0812",
+  "generated_at": "2026-11-07T08:00:17.654Z",
+  "injected_pairs": [
+    {
+      "ref": "John 5:14",
+      "english": "Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee.",
+      "tamil": "அதற்குப்பின்பு இயேசு அவனை தேவாலயத்திலே கண்டு: இதோ, நீ சொஸ்தமானாய், அதிக கேடானதொன்றும் உனக்கு வராதபடி இனிப் பாவஞ்செய்யாதே என்றார்.",
+      "matched_query": "Go ye and sin no more (or disbelieve no more) or a worse thing come upon you.",
+      "match_kind": "quotation",
+      "match_method": "fts_and_words",
+      "verified_against_source": true
+    },
+    {
+      "ref": "Mark 16:17",
+      "english": "And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues;",
+      "tamil": "விசுவாசிக்கிறவர்களால் நடக்கும் அடையாளங்களாவன: என் நாமத்தினாலே பிசாசுகளைத் துரத்துவார்கள். நவமான பாஷைகளைப் பேசுவார்கள்;",
+      "matched_query": "These signs shall follow them that believe. If they lay their hands on the sick they’ll get well.",
+      "match_kind": "quotation",
+      "match_method": "fts_phrase_prefix",
+      "verified_against_source": true
+    }
+  ],
+  "queries": [
+    {
+      "kind": "quotation",
+      "query": "Go ye and sin no more (or disbelieve no more) or a worse thing come upon you.",
+      "hits": 1,
+      "verified": 1,
+      "match_method": "fts_and_words",
+      "classification": "verified",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or a worse thing come upon",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or a worse thing come",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or a worse thing",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or a worse",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or a",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more or",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no more",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Go ye and sin no",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Go ye and sin no more or a",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "ye and sin no more or a worse",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "and sin no more or a worse thing",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "sin no more or a worse thing come",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Go ye and sin no more or",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "ye and sin no more or a",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "and sin no more or a worse",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "sin no more or a worse thing",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Go ye and sin no more",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "ye and sin no more or",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "and sin no more or a",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "sin no more or a worse",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Go ye and sin no",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "ye and sin no more",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "and sin no more or",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "sin no more or a",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 1,
+          "kept": 1
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "The same things that I do,",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "paraphrase_unmatched",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "The same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "The same things that I",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "The same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "The same things that I",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "the same things that i do"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "If you get the people to believe you…",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "if you get the people to believe you"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "Something’s wrong with your eye.",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Something's wrong with your eye",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Something's wrong with your eye",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "something's wrong with your eye"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "I accept Him as my Healer.",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "I accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "I accept Him as my",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "I accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "I accept Him as my",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "i accept him as my healer"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "These signs shall follow them that believe. If they lay their hands on the sick they’ll get well.",
+      "hits": 1,
+      "verified": 1,
+      "match_method": "fts_phrase_prefix",
+      "classification": "verified",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe If they lay their hands",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe If they lay their",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe If they lay",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe If they",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe If",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "These signs shall follow them that believe",
+          "hits": 1,
+          "kept": 1
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "query": "The same things that I do,",
+      "kind": "quotation",
+      "error": "paraphrase_unmatched",
+      "classification": "paraphrase_unmatched"
+    },
+    {
+      "query": "If you get the people to believe you…",
+      "kind": "quotation",
+      "error": "not_scripture",
+      "classification": "not_scripture"
+    },
+    {
+      "query": "Something’s wrong with your eye.",
+      "kind": "quotation",
+      "error": "not_scripture",
+      "classification": "not_scripture"
+    },
+    {
+      "query": "I accept Him as my Healer.",
+      "kind": "quotation",
+      "error": "not_scripture",
+      "classification": "not_scripture"
+    }
+  ],
+  "details": [
+    {
+      "query": "Go ye and sin no more (or disbelieve no more) or a worse thing come upon you.",
+      "kind": "quotation",
+      "match_method": "fts_and_words",
+      "ref": "John 5:14",
+      "verified": true,
+      "reason": "exact_en_ta_match_in_bible_parallel_dataset"
+    },
+    {
+      "kind": "quotation",
+      "query": "The same things that I do,",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "paraphrase_unmatched",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "The same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "The same things that I",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "The same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "The same things that I",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "same things that I do",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "the same things that i do"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "If you get the people to believe you…",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "If you get the people",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "get the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "If you get the people",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "you get the people to",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "get the people to believe",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "the people to believe you",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "if you get the people to believe you"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "Something’s wrong with your eye.",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "Something's wrong with your eye",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "Something's wrong with your eye",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "something's wrong with your eye"
+        }
+      ]
+    },
+    {
+      "kind": "quotation",
+      "query": "I accept Him as my Healer.",
+      "hits": 0,
+      "verified": 0,
+      "match_method": null,
+      "classification": "not_scripture",
+      "error": null,
+      "attempts": [
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "I accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_prefix",
+          "variant": "I accept Him as my",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "normalized_english_like",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "I accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "I accept Him as my",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_phrase_window",
+          "variant": "accept Him as my Healer",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "fts_and_words",
+          "hits": 0,
+          "kept": 0
+        },
+        {
+          "method": "none",
+          "norm": "i accept him as my healer"
+        }
+      ]
+    },
+    {
+      "query": "These signs shall follow them that believe. If they lay their hands on the sick they’ll get well.",
+      "kind": "quotation",
+      "match_method": "fts_phrase_prefix",
+      "ref": "Mark 16:17",
+      "verified": true,
+      "reason": "exact_en_ta_match_in_bible_parallel_dataset"
+    }
+  ],
+  "note": null
+}

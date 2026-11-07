@@ -1,0 +1,434 @@
+{
+  "phase": "3",
+  "mode": "quality_benchmark_after_max_tokens",
+  "generated_at": "2026-11-07T08:13:02.543Z",
+  "sermon_id": "54-0812",
+  "generateContent_calls_this_phase": 1,
+  "automatic_retry": false,
+  "finishReason": "MAX_TOKENS",
+  "structural_validation_phase3": "FAIL",
+  "salvaged_complete_paragraphs": 8,
+  "expected_paragraphs": 17,
+  "baseline_integrity": {
+    "snapshot": {
+      "captured_at": "2026-11-07T08:10:09.995Z",
+      "en_ta_json": "5b08fb64ff37c2ad5c81c6ecf266e6fb677dfa11bb0bdc6cd880301d2307beb9",
+      "preview_html": "332ca670ef0ce75ce6cc579fe1c3bf018e67feca17fdc24884709dad3a71ef40",
+      "run_meta": "5c54ad0e7159a5b97ce5363e680881651b10a44e594ae339d0fddfb3858f5afd",
+      "raw_chunk_1": "ace3a9842b21c8ce412018e18d8a642edc597fd0838003e3f13bec652ecbb7e6",
+      "raw_chunk_2": "1b3d168bad72c1846cf215ba12bf5274890c7a257001a58f5a4797aa0ee20037"
+    },
+    "current": {
+      "en_ta_json": "5b08fb64ff37c2ad5c81c6ecf266e6fb677dfa11bb0bdc6cd880301d2307beb9",
+      "preview_html": "332ca670ef0ce75ce6cc579fe1c3bf018e67feca17fdc24884709dad3a71ef40",
+      "run_meta": "5c54ad0e7159a5b97ce5363e680881651b10a44e594ae339d0fddfb3858f5afd"
+    },
+    "unchanged": true
+  },
+  "runs": {
+    "baseline": {
+      "usage": {
+        "promptTokenCount": 18911,
+        "candidatesTokenCount": 5443,
+        "totalTokenCount": 30097
+      },
+      "bible_pairs_injected": 0,
+      "cost": {
+        "usd": 0.103138,
+        "inr_gst": 10.22
+      }
+    },
+    "phase3": {
+      "usage": {
+        "promptTokenCount": 29502,
+        "candidatesTokenCount": 5314,
+        "totalTokenCount": 45872,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 29502
+          }
+        ],
+        "thoughtsTokenCount": 11056,
+        "serviceTier": "standard"
+      },
+      "thoughtsTokenCount": 11056,
+      "candidatesTokenCount": 5314,
+      "promptTokenCount": 29502,
+      "maxOutputTokens": 16384,
+      "thoughts_share_of_output_budget": "67.5%",
+      "cost_candidates_only": {
+        "usd": 0.122772,
+        "inr_gst": 12.17
+      },
+      "cost_if_thoughts_billed_as_output": {
+        "usd": 0.255444,
+        "inr_gst": 25.32
+      },
+      "note": "finishReason MAX_TOKENS. Cost shown both ways: candidates-only vs candidates+thoughts as output."
+    }
+  },
+  "root_cause": "finishReason=MAX_TOKENS. thoughtsTokenCount=11056 plus candidatesTokenCount=5314 exhausted the 16384 output budget before all 17 paragraph JSON objects were emitted.",
+  "paragraph_comparisons": [
+    {
+      "label": "header",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 129,
+      "phase3_ta_bytes": 133,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": 4
+    },
+    {
+      "label": "1",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2493,
+      "phase3_ta_bytes": 2480,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -13
+    },
+    {
+      "label": "2",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 3289,
+      "phase3_ta_bytes": 3426,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": 137
+    },
+    {
+      "label": "3",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2119,
+      "phase3_ta_bytes": 2020,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -99
+    },
+    {
+      "label": "4",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 6786,
+      "phase3_ta_bytes": 6958,
+      "baseline_incomplete": true,
+      "phase3_incomplete": true,
+      "delta_ta_bytes": 172
+    },
+    {
+      "label": "5",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 4208,
+      "phase3_ta_bytes": 4317,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": 109
+    },
+    {
+      "label": "6",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2873,
+      "phase3_ta_bytes": 3034,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": 161
+    },
+    {
+      "label": "7",
+      "baseline_present": true,
+      "phase3_present": true,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 5313,
+      "phase3_ta_bytes": 5455,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": 142
+    },
+    {
+      "label": "8",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 3925,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -3925
+    },
+    {
+      "label": "9",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 3937,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -3937
+    },
+    {
+      "label": "10",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 4860,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": true,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -4860
+    },
+    {
+      "label": "11",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2827,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -2827
+    },
+    {
+      "label": "12",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 4920,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -4920
+    },
+    {
+      "label": "13",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2348,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -2348
+    },
+    {
+      "label": "14",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 4368,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": true,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -4368
+    },
+    {
+      "label": "15",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 2649,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -2649
+    },
+    {
+      "label": "16",
+      "baseline_present": true,
+      "phase3_present": false,
+      "tamil_identical": false,
+      "baseline_ta_bytes": 4468,
+      "phase3_ta_bytes": 0,
+      "baseline_incomplete": false,
+      "phase3_incomplete": false,
+      "delta_ta_bytes": -4468
+    }
+  ],
+  "bible_quotation_review": [
+    {
+      "label": "3",
+      "ref": "John 5:14",
+      "approved_tamil": null,
+      "baseline_contains_approved": false,
+      "phase3_contains_approved": false,
+      "phase3_available": true,
+      "phase3_quote": "அதிக கேடானதொன்றும் உனக்கு வராதபடி இனிப் பாவஞ்செய்யாதே (அல்லது இனி அவிசுவாசமாயிருக்காதே)"
+    },
+    {
+      "label": "13",
+      "ref": "Mark 16:17",
+      "approved_tamil": null,
+      "baseline_contains_approved": false,
+      "phase3_contains_approved": false,
+      "phase3_available": false,
+      "phase3_quote": null
+    }
+  ],
+  "improvements": [
+    {
+      "label": "header",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "1",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "2",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "3",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "4",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "5",
+      "note": "Tamil wording differs from baseline"
+    },
+    {
+      "label": "6",
+      "note": "Longer Tamil than baseline (+161 bytes)"
+    },
+    {
+      "label": "7",
+      "note": "Tamil wording differs from baseline"
+    }
+  ],
+  "remaining_weaknesses": [
+    {
+      "label": "8",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "9",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "10",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "11",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "12",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "13",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "14",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "15",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    },
+    {
+      "label": "16",
+      "issue": "Phase 3 Tamil missing (output truncated at MAX_TOKENS)"
+    }
+  ],
+  "human_review_required": [
+    {
+      "label": "8",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "9",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "10",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "11",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "12",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "13",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "14",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "15",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "16",
+      "category": "missing_due_to_truncation",
+      "action": "Do not invent. Future benchmark must prevent thinking-token starvation of maxOutputTokens."
+    },
+    {
+      "label": "3",
+      "category": "bible_quotation",
+      "ref": "John 5:14",
+      "action": "Compare Phase 3 quote to approved BSI OV Tamil",
+      "approved_tamil": null,
+      "phase3_quote": "அதிக கேடானதொன்றும் உனக்கு வராதபடி இனிப் பாவஞ்செய்யாதே (அல்லது இனி அவிசுவாசமாயிருக்காதே)"
+    },
+    {
+      "label": "13",
+      "category": "bible_quotation_unavailable",
+      "ref": "Mark 16:17",
+      "action": "Paragraph truncated before completion; cannot assess Bible Tamil in this run"
+    }
+  ],
+  "recommended_prompt_improvements": [
+    "Disable or tightly cap model thinking/reasoning tokens for translation JSON jobs, or raise maxOutputTokens enough that candidatesTokenCount can cover all 17 paragraphs after thoughts.",
+    "Require the model to emit compact JSON (no pretty-print indentation) to reduce output tokens.",
+    "Instruct: do not echo long English paragraphs back if schema already requires them — or allow tamil-only paragraphs with labels to cut output size (tradeoff vs validation).",
+    "Explicitly preserve English editor gaps (`...?...`) unchanged in Tamil.",
+    "When verified Bible pairs are injected, require exact approved Tamil inside quotation marks for those citations.",
+    "For the next quality benchmark only: consider responseMimeType JSON with a schema that omits repeating english fields to fit one request under 16384 including thoughts.",
+    "Do not auto-retry failed MAX_TOKENS runs without explicit approval (cost control)."
+  ],
+  "files": {
+    "baseline_json": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\sermon_54-0812.en-ta.json",
+    "phase3_raw": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\phase3_benchmark\\raw_full.txt",
+    "phase3_salvaged_json": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\phase3_benchmark\\sermon_54-0812.en-ta.salvaged.json",
+    "response_meta": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\responses\\54-0812_PHASE3_BENCHMARK\\request-01.meta.json"
+  },
+  "verdict": {
+    "status": "BENCHMARK_INCOMPLETE_MAX_TOKENS",
+    "quality_summary": "One paid Phase 2B-prompt generation ran. Output truncated. Salvaged 8/17 complete paragraph objects for partial comparison. Baseline untouched. No retry performed.",
+    "stop": "STOP. No further generateContent without explicit approval. No bulk translation. No database writes."
+  }
+}

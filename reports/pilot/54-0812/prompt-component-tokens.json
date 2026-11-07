@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-11-07T08:00:16.878Z",
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "phase1_1_shared_prompt_token_estimate": 22821,
+  "phase2a_system_tokens_observed": 43871,
+  "delta_phase2a_vs_phase1_estimate": 21050,
+  "explanation": "Phase 2A injected verbose knowledge/*.json via JSON.stringify(compactKnowledge()), duplicating style_guide and metadata (source_ids, evidence_classification, etc.). Phase 2B injects distilled prompt_package.json instead.",
+  "components": {
+    "instruction_preamble": {
+      "tokens": 137,
+      "chars": 633
+    },
+    "style_guide_standalone": {
+      "tokens": 352,
+      "chars": 1426
+    },
+    "prompt_package_pretty_file": {
+      "tokens": 37540,
+      "chars": 147065
+    },
+    "prompt_package_compact_json": {
+      "tokens": 24513,
+      "chars": 113668
+    },
+    "verbose_compactKnowledge_blob": {
+      "tokens": 43591,
+      "chars": 177971
+    },
+    "package_guide": {
+      "tokens": 352,
+      "chars": 1426
+    },
+    "package_terms": {
+      "tokens": 8669,
+      "chars": 31100
+    },
+    "package_names": {
+      "tokens": 3897,
+      "chars": 12949
+    },
+    "package_doctrinal": {
+      "tokens": 2148,
+      "chars": 8884
+    },
+    "package_phrases": {
+      "tokens": 1704,
+      "chars": 8254
+    },
+    "package_examples": {
+      "tokens": 7728,
+      "chars": 50965
+    },
+    "bible_block": {
+      "tokens": 195,
+      "chars": 1119
+    },
+    "user_request": {
+      "tokens": 4596,
+      "chars": 18369
+    },
+    "system_prompt_as_sent": {
+      "tokens": 24902,
+      "chars": 115614
+    }
+  },
+  "gap_analysis": {
+    "verbose_minus_prompt_package_compact": 19078,
+    "system_minus_prompt_package_compact": 389,
+    "preamble_tokens": 137,
+    "bible_block_tokens": 195
+  }
+}

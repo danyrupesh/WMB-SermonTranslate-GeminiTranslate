@@ -1,0 +1,31 @@
+{
+  "sermon_id": "54-0812",
+  "phase3_benchmark": true,
+  "status": "INCOMPLETE_MAX_TOKENS",
+  "model": "gemini-3.1-pro-preview",
+  "api_version": "v1beta",
+  "prompt_version": "phase3-quality-benchmark-1",
+  "finishReason": "MAX_TOKENS",
+  "usage": {
+    "promptTokenCount": 29502,
+    "candidatesTokenCount": 5314,
+    "totalTokenCount": 45872,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29502
+      }
+    ],
+    "thoughtsTokenCount": 11056,
+    "serviceTier": "standard"
+  },
+  "thoughtsTokenCount": 11056,
+  "estimated_usd_standard": 0.255444,
+  "estimated_inr_gst": 25.32,
+  "bible_pairs_injected": null,
+  "note": "Single generateContent finished with MAX_TOKENS. Thinking tokens consumed large share of 16384 budget. No automatic retry. Salvaged complete paragraph objects only.",
+  "raw_path": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\phase3_benchmark\\raw_full.txt",
+  "salvaged_json": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812\\phase3_benchmark\\sermon_54-0812.en-ta.salvaged.json",
+  "salvaged_complete_paragraphs": 8,
+  "baseline_dir": "E:\\Freelance\\MessageDBApp\\AI_Translate\\GoogleGemini\\reports\\pilot\\54-0812"
+}

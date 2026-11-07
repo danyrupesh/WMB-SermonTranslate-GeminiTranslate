@@ -1,0 +1,118 @@
+{
+  "phase": "3C.4",
+  "mode": "prohibited_content_diagnostic_readonly",
+  "generated_at": "2026-11-07T10:40:00.000Z",
+  "sermon_id": "47-1207",
+  "chunk": 1,
+  "generateContent_called": false,
+  "paid_generation_requests": 0,
+  "chunk2_executed": false,
+  "source_of_truth_modified": false,
+  "knowledge_package_modified": false,
+  "verdict": {
+    "empty_response_is_local_parse_bug": false,
+    "empty_response_is_provider_safety_block": true,
+    "exact_trigger_passage_identified": false,
+    "exact_harm_category_identified": false,
+    "prompt_vs_candidate_fully_distinguished": false,
+    "best_supported_reading": "candidates[0].finishReason=PROHIBITED_CONTENT with empty text and zero output tokens; provider-side non-configurable prohibited-content filter. promptFeedback was not persisted so a concurrent prompt-level block cannot be confirmed or ruled out with full confidence.",
+    "cannot_determine": [
+      "Which safety category or substring triggered the filter",
+      "Whether promptFeedback.blockReason was also set",
+      "Whether any candidate.content existed before stripping",
+      "Whether child-related testimonies vs other passages were involved"
+    ]
+  },
+  "saved_metadata_present": [
+    "finishReason",
+    "usage.promptTokenCount",
+    "usage.totalTokenCount",
+    "usage.promptTokensDetails",
+    "usage.serviceTier",
+    "generateError=null",
+    "text empty",
+    "elapsed_ms"
+  ],
+  "saved_metadata_missing": [
+    "promptFeedback.blockReason",
+    "promptFeedback.safetyRatings",
+    "promptFeedback.blockReasonMessage",
+    "candidates[0].safetyRatings",
+    "candidates[0].finishMessage",
+    "candidates[0].content",
+    "candidates[0].citationMetadata",
+    "modelVersion",
+    "responseId",
+    "full GenerateContentResponse JSON"
+  ],
+  "sdk": {
+    "package": "@google/genai",
+    "version": "3.0.0",
+    "api_version_used": "v1beta",
+    "inspect_supported": {
+      "promptFeedback": true,
+      "candidate.finishReason": true,
+      "candidate.safetyRatings": true,
+      "candidate.finishMessage": true,
+      "blockReasonMessage_on_gemini_api": false
+    }
+  },
+  "docs": {
+    "finishReason_PROHIBITED_CONTENT": "Token generation stopped for potentially containing prohibited content (non-configurable filter).",
+    "promptFeedback_PROHIBITED_CONTENT": "Prompt blocked for prohibited content.",
+    "configurable_harm_finishReason": "SAFETY (not used on this response).",
+    "safetySettings_cannot_disable_prohibited_content": true
+  },
+  "hashes_verified_against_phase3c3": {
+    "system_prompt": "4d219d87c5b15dc46ecf291925138933fa5d8f3d7ec266955b9bc04229b467f4",
+    "user_prompt": "497f62ce00aa72fc135a1ac390f0d59f2739351b072ed07954fecc725b66dc35",
+    "payload": "3d0cde452b1211fc027338a4339b3de57e3360226cc5b06f91ee85a6e5bc5f57"
+  },
+  "source_sections_flagged_for_review_not_proven": [
+    {
+      "label": "19",
+      "note": "Little girl (deaf/dumb, tuberculosis); seven children from mute school."
+    },
+    {
+      "label": "23-24",
+      "note": "Little boy with polio braces."
+    },
+    {
+      "label": "35",
+      "note": "Twenty-month-old daughter quoted in prayer."
+    },
+    {
+      "label": "36",
+      "note": "Graphic healing testimony with 'little pajamas' and 'blood all over'; age not stated; tape gaps."
+    },
+    {
+      "label": "18",
+      "note": "Samson/harlot biblical allusion; more typical of configurable sexually_explicit than PROHIBITED_CONTENT."
+    },
+    {
+      "label": "27",
+      "note": "Insane spirit / epilepsy testimony."
+    }
+  ],
+  "proposed_next_step": {
+    "blind_retry_same_3c3_request": {
+      "justified": false,
+      "risk": "Likely same block; pays input again; still no Tamil."
+    },
+    "retry_same_request_after_full_response_logging": {
+      "justified": "only with explicit approval",
+      "risk": "Pays input again (~₹8 if blocked the same way); may still produce no Tamil; would fill the metadata gap."
+    },
+    "lower_safetySettings": {
+      "justified": false,
+      "risk": "Weakens configurable protections and does not disable PROHIBITED_CONTENT."
+    },
+    "rewrite_or_drop_source_paragraphs": {
+      "justified": false,
+      "risk": "Changes sermon meaning; not authorized in 3C.4."
+    }
+  },
+  "new_paid_request_technically_justified": false,
+  "new_paid_request_justified_if_user_approves_metadata_capture_or_new_scope": true,
+  "stop": true
+}
